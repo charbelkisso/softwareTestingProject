@@ -1,7 +1,7 @@
-from numpy import *
+
 import numpy as np
+from  numpy.testing import assert_equal
 from scipy import signal, misc
-import matplotlib.pyplot as plt
 import unittest
 
 class test_scipy(unittest.TestCase):
@@ -12,7 +12,7 @@ class test_scipy(unittest.TestCase):
         h = np.array([0.0, 1.0, 0.0, 0.0, 0.0])
 
         print(x)
-        self.assertEquals(signal.convolve(x, h),
+        assert_equal(signal.convolve(x, h),
                           [ 0.0, 1.0, 2.0, 3.0, 0.0, 0.0, 0.0])
 
 if __name__ == '__main__':
