@@ -17,7 +17,6 @@ import numpy as np
 built-in assert function works with arrays and ndArrays 
 """
 from numpy.testing import assert_equal
-
 """
 functions to test:
 
@@ -33,9 +32,9 @@ class Scipy_Test(unittest.TestCase):
     def setUp(self):
         """
 
-
         :return:
         """
+
         return
 
 
@@ -56,9 +55,14 @@ class Scipy_Test(unittest.TestCase):
         assert_equal(signal.convolve(x, h),
                           [0.0, 1.0, 2.0, 3.0, 0.0, 0.0, 0.0])
 
+    def test_
+
+
+"""
     def test_full(self):
 
         scipy.test('full')
+"""
 
 if __name__ == '__main__':
 
