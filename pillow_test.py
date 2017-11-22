@@ -16,8 +16,8 @@ class Test_scipy_resize(unittest.TestCase):
         im = np.random.random((10,20))
 
         for T in np.sctypes['float'] + [float]:
-            im1 = misc.imresize(im,T(1.101))
-            self.assertEqual(im1.shape, (11, 22))
+            im1 = misc.imresize(im,T(2.0))
+            self.assertEqual(im1.shape, (20, 40))
 
     def test_imresize4(self):
 
