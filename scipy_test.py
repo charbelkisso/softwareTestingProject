@@ -34,6 +34,7 @@ class Scipy_Test(unittest.TestCase):
     """
     Scope to define global variable are used in the test unit
     """
+
     def setUp(self):
 
         return
