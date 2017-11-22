@@ -4,7 +4,7 @@ import numpy as np
 from  numpy.testing import assert_equal
 
 
-from scipy import misc
+from scipy import misc, linalg
 
 import scipy
 
