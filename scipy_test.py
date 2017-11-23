@@ -56,7 +56,7 @@ class Scipy_Test(unittest.TestCase):
         assert_equal(signal.convolve(x, h),
                           [0.0, 1.0, 2.0, 3.0, 0.0, 0.0, 0.0])
 
-    def test_
+    
 
 
 """
