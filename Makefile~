@@ -1,0 +1,12 @@
+
+all: test clean
+
+
+test:
+	python3 globaltest.py
+
+clean:
+	rm -f *.pyc
+	rm -f *.pyo
+	rm -f *.txt
+
