@@ -27,7 +27,7 @@ class Test_Count(unittest.TestCase):
 		self.assertEqual(count_white_spaces(self.testStr1), 1)
 		self.assertEqual(count_white_spaces(self.testStr2), 0)
 		self.assertEqual(count_white_spaces(self.testStr3), 0)
-		
+	
 class Test_Least_Squares(unittest.TestCase):
 
 	def setUp(self):
