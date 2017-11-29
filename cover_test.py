@@ -27,7 +27,7 @@ class Test_Count(unittest.TestCase):
 		self.assertEqual(count_white_spaces(self.testStr1), 1)
 		self.assertEqual(count_white_spaces(self.testStr2), 0)
 		self.assertEqual(count_white_spaces(self.testStr3), 0)
-"""	
+	
 class Test_Least_Squares(unittest.TestCase):
 
 	def setUp(self):
@@ -60,10 +60,14 @@ class Test_Least_Squares(unittest.TestCase):
 	def test1(self):
 		res = least_squares(self.fun, self.x0, jac=self.jac, bounds=(0, 100), args=(self.u, self.y), verbose=1)
 		assert_almost_equal(res.x, self.res_test)
+	def test2(self):
+		res = least_squares(self.fun, self.x0, bounds=(0, 100), args=(self.u, self.y), verbose=1)
+		assert_almost_equal(res.x, self.res_test)
+	def test3(self):
+		res = least_squares(self.fun, self.x0, jac=self.jac, bounds=(0, 100), args=(self.u, self.y))
+		assert_almost_equal(res.x, self.res_test)
 
 
-
-"""
 if __name__ == '__main__':
 	unittest.main()
 
