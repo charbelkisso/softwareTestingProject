@@ -15,7 +15,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="scipy_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scipy_test.py">
@@ -27,20 +26,10 @@
                 <element signature="e#189#253#1" expanded="false" />
                 <element signature="e#293#373#1" expanded="false" />
               </folding>
-=======
-    <leaf>
-      <file leaf-file-name="pillow_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pillow_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
->>>>>>> 367df9b4a8a64ef2631bd004ca099c370c30f402
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
       <file leaf-file-name="scrap.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scrap.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -56,13 +45,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3048">
               <caret line="127" column="29" lean-forward="false" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="29" />
-=======
-      <file leaf-file-name="scipy_test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scipy_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="58" column="4" lean-forward="false" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
->>>>>>> 367df9b4a8a64ef2631bd004ca099c370c30f402
               <folding />
             </state>
           </provider>
@@ -71,7 +53,6 @@
       <file leaf-file-name="scrap.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrap.py">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
             <state relative-caret-position="23088">
               <caret line="1001" column="26" lean-forward="false" selection-start-line="1001" selection-start-column="18" selection-end-line="1001" selection-end-column="26" />
               <folding>
@@ -80,11 +61,6 @@
                 <element signature="e#1502#2301#1" expanded="false" />
                 <element signature="e#2416#2706#0" expanded="false" />
               </folding>
-=======
-            <state relative-caret-position="-57">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
->>>>>>> 367df9b4a8a64ef2631bd004ca099c370c30f402
             </state>
           </provider>
         </entry>
@@ -361,12 +337,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
     <frame x="104" y="40" width="1857" height="1092" extended-state="6" />
-=======
-    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
-    <editor active="true" />
->>>>>>> 367df9b4a8a64ef2631bd004ca099c370c30f402
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -406,7 +377,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scipy_test.py">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="144">
           <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding>
@@ -427,19 +397,6 @@
             <element signature="e#1502#2301#1" expanded="false" />
             <element signature="e#2416#2706#0" expanded="false" />
           </folding>
-=======
-        <state relative-caret-position="720">
-          <caret line="57" column="13" lean-forward="false" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pillow_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
->>>>>>> 367df9b4a8a64ef2631bd004ca099c370c30f402
         </state>
       </provider>
     </entry>
@@ -447,7 +404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-<<<<<<< HEAD
           <folding>
             <element signature="e#104#153#1" expanded="false" />
             <element signature="e#189#253#1" expanded="false" />
@@ -460,13 +416,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3048">
           <caret line="127" column="29" lean-forward="true" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="29" />
-=======
->>>>>>> 367df9b4a8a64ef2631bd004ca099c370c30f402
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/numpy/linalg/linalg.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23088">
@@ -480,8 +433,6 @@
         </state>
       </provider>
     </entry>
-=======
->>>>>>> 367df9b4a8a64ef2631bd004ca099c370c30f402
     <entry file="file://$PROJECT_DIR$/scipy_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
@@ -494,10 +445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="19" />
-<<<<<<< HEAD
-=======
-          <folding />
->>>>>>> 367df9b4a8a64ef2631bd004ca099c370c30f402
         </state>
       </provider>
     </entry>
@@ -527,10 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-<<<<<<< HEAD
-=======
-          <folding />
->>>>>>> 367df9b4a8a64ef2631bd004ca099c370c30f402
         </state>
       </provider>
     </entry>
@@ -569,10 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-<<<<<<< HEAD
-=======
-          <folding />
->>>>>>> 367df9b4a8a64ef2631bd004ca099c370c30f402
         </state>
       </provider>
     </entry>
@@ -608,7 +547,6 @@
     <entry file="file://$USER_HOME$/Anaconda3/pkgs/nose-1.3.7-py36h1c3779e_2/Lib/site-packages/nose/core.py" />
     <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-727419934/scipy/signal/sigtools.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/unittest/case.py" />
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/pillow_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -627,34 +565,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7440">
           <caret line="316" column="8" lean-forward="false" selection-start-line="316" selection-start-column="8" selection-end-line="316" selection-end-column="8" />
-=======
-    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/scipy/spatial/_plotutils.py" />
-    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/numpy/testing/nosetester.py" />
-    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/scipy/__init__.py" />
-    <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/numpy/linalg/linalg.py" />
-    <entry file="file://$PROJECT_DIR$/pillow_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
->>>>>>> 367df9b4a8a64ef2631bd004ca099c370c30f402
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scrap.py">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="3048">
           <caret line="127" column="29" lean-forward="false" selection-start-line="127" selection-start-column="29" selection-end-line="127" selection-end-column="29" />
-=======
-        <state relative-caret-position="-57">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
->>>>>>> 367df9b4a8a64ef2631bd004ca099c370c30f402
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/site-packages/numpy/linalg/linalg.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23088">
@@ -677,13 +598,6 @@
             <element signature="e#189#253#1" expanded="false" />
             <element signature="e#293#373#1" expanded="false" />
           </folding>
-=======
-    <entry file="file://$PROJECT_DIR$/scipy_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="58" column="4" lean-forward="false" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
-          <folding />
->>>>>>> 367df9b4a8a64ef2631bd004ca099c370c30f402
         </state>
       </provider>
     </entry>
