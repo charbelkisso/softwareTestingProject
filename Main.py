@@ -1,11 +1,11 @@
-from ndimage.gaussian_filter_test import *
+from ndimage.ndimage_test import *
 class Main():
 
     def __init__(self):
-        self.gaussian = Gaussian_Filter_Test()
+        self.nd_test = Test_ndimage()
 
     def main(self):
-        self.gaussian.main()
+        self.nd_test.main()
 
 
 if __name__ == '__main__':
