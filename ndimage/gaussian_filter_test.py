@@ -49,6 +49,7 @@ class Gaussian_Filter_Test(unittest.TestCase):
         return
 
     def test_gaussian_truncate(self):
+        return
 
     def main(self):
         unittest.main()
