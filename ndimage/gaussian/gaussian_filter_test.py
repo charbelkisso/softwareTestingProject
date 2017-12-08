@@ -21,15 +21,15 @@ class Gaussian_Filter_Test(unittest.TestCase):
     =========
     1. testing the return result of the function. 
         a. on one dimension input shall return one dimension output.
-        b. on two dimention input shall return two dimension output.
+        b. on two dimension input shall return two dimension output.
         c. on 3X3X3 dimension input array
-    2. testing exeptions whene the function is called without parameters.
+    2. testing exceptions when the function is called without parameters.
     3. testing truncate option by counting the non-zero items in the result array.
-    4. testing where the sigma is set to zero (No filtering), input shall be equall to output
+    4. testing where the sigma is set to zero (No filtering), input shall be equal to output
 
 
-    since the output value of this function is an approximation of the gaussian secon deviration
-    to calculated by hand and compaire result is quit difficult and it doesn't give any testing benifits
+    since the output value of this function is an approximation of the gaussian second deviation
+    to calculated by hand and compare result is quit difficult and it doesn't give any testing benefits
     """
 
     def setUp(self):
@@ -66,7 +66,7 @@ class Gaussian_Filter_Test(unittest.TestCase):
 
         this test will pass if the non-zero output element are correct
         the equation is non-zeros = ( 2 * ( sigma * truncate ) + 1 ) ^ num_of_axis
-        whene the equation exceed the size of the array all the elemnt will be non-zero
+        whene the evaluation of the equation exceeds the size of the array all the elemnt will be non-zero
         """
 
         # array with 2 axix
