@@ -1,6 +1,5 @@
 import unittest
 from scipy.ndimage import gaussian_filter
-from scipy import misc
 import numpy as np
 from numpy.testing import * 
 
@@ -11,9 +10,9 @@ class Gaussian_Filter_Test(unittest.TestCase):
     """
     this class is testing the gaussian filter
 
-    Function: name gaussian_filter()
+    Function name: gaussian_filter()
 
-    Guassian filter used for reduce noises into images. the input is presented as nd array
+    Gaussian filter used for reduce noises into images. the input is presented as nd array
     with n dimensions and the output is a nd array correspond to the filtered input with same 
     dimensions.
 
