@@ -88,7 +88,7 @@ class Scipy_Test(unittest.TestCase):
 
     def test_quad_different_functions(self):
         assert_almost_equal(integrate.quad(self.quad_func1, 0, np.inf),
-                          [1.0, 0.0], decimal = 9)
+                          [1.0, 5.84261e-11], decimal = 5)
         assert_almost_equal(integrate.quad(self.quad_func2, 0, 4),
                           [64/3, 0.0], decimal = 9)
         assert_almost_equal(integrate.quad(self.quad_func3, 0, 1, args = (1,)),

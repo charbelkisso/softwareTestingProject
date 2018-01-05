@@ -29,7 +29,7 @@ x0 = np.array([2.5, 3.9, 4.15, 3.9])
 res = least_squares(fun, x0, jac=jac, bounds=(0, 100), args=(u, y), verbose=1)
 
 
-print res.x
+print (res.x)
 
 
 import matplotlib.pyplot as plt
