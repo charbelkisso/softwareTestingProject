@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09a77399-3211-43e9-a685-019409ea4002" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/linalg_test/hypmat/HypMatrix.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/linalg_test/test_linalg.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main.py" afterPath="$PROJECT_DIR$/Main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/signal_test/convolve/ConvCorr.py" afterPath="$PROJECT_DIR$/signal_test/convolve/ConvCorr.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,8 +24,8 @@
           <file leaf-file-name="gaussian_filter_test.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ndimage/gaussian/gaussian_filter_test.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1485">
-                  <caret line="58" column="54" lean-forward="false" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
+                <state relative-caret-position="258">
+                  <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
                   </folding>
@@ -48,7 +49,7 @@
             <entry file="file://$PROJECT_DIR$/ndimage/ndimage_test.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="270">
-                  <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+                  <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#51#0" expanded="true" />
                   </folding>
@@ -56,11 +57,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+                <state relative-caret-position="438">
+                  <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#34#0" expanded="true" />
                   </folding>
@@ -68,10 +69,32 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ConvCorr.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="HypMatrix.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/linalg_test/hypmat/HypMatrix.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1431">
+                  <caret line="186" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#51#66#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="test_linalg.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/linalg_test/test_linalg.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="216">
+                  <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ConvCorr.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/signal_test/convolve/ConvCorr.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
+                <state relative-caret-position="-1161">
                   <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#24#0" expanded="true" />
@@ -152,8 +175,10 @@
         <option value="$PROJECT_DIR$/signal/signal.py" />
         <option value="$PROJECT_DIR$/signal/signal_test.py" />
         <option value="$PROJECT_DIR$/signal_test/signal_test.py" />
-        <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/signal_test/convolve/ConvCorr.py" />
+        <option value="$PROJECT_DIR$/linalg_test/hypmat/HypMatrix.py" />
+        <option value="$PROJECT_DIR$/linalg_test/test_linalg.py" />
+        <option value="$PROJECT_DIR$/Main.py" />
       </list>
     </option>
   </component>
@@ -164,7 +189,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+    <option name="x" value="635" />
+    <option name="y" value="73" />
     <option name="width" value="1280" />
     <option name="height" value="709" />
   </component>
@@ -215,24 +241,13 @@
             <path>
               <item name="softwareTestingProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="softwareTestingProject" type="462c0819:PsiDirectoryNode" />
-              <item name="ndimage" type="462c0819:PsiDirectoryNode" />
+              <item name="linalg_test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="softwareTestingProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="softwareTestingProject" type="462c0819:PsiDirectoryNode" />
-              <item name="signal_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="softwareTestingProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="softwareTestingProject" type="462c0819:PsiDirectoryNode" />
-              <item name="signal_test" type="462c0819:PsiDirectoryNode" />
-              <item name="convolve" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="softwareTestingProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="softwareTestingProject" type="462c0819:PsiDirectoryNode" />
-              <item name="signal_test" type="462c0819:PsiDirectoryNode" />
-              <item name="firwin" type="462c0819:PsiDirectoryNode" />
+              <item name="linalg_test" type="462c0819:PsiDirectoryNode" />
+              <item name="hypmat" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -275,6 +290,21 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="Nosetests in HypMatrix.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linalg_test/hypmat" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="testingProject" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/linalg_test/hypmat/HypMatrix.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <configuration name="Nosetests in pillow_test.py" type="tests" factoryName="Nosetests" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -290,23 +320,6 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/pillow_test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration name="signal" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/signal" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="testingProject" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/signal/signal.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <configuration name="signal_test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -361,19 +374,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in pillow_test.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python.signal" />
-      <item index="2" class="java.lang.String" itemvalue="Python.signal_test" />
-      <item index="3" class="java.lang.String" itemvalue="Python.signal_test (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test_signal" />
-      <item index="5" class="java.lang.String" itemvalue="Python.Main" />
+      <item index="1" class="java.lang.String" itemvalue="Python.signal_test" />
+      <item index="2" class="java.lang.String" itemvalue="Python.signal_test (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test_signal" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Main" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Nosetests in HypMatrix.py" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.Main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test_signal" />
-        <item index="2" class="java.lang.String" itemvalue="Python.signal_test (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.signal_test" />
-        <item index="4" class="java.lang.String" itemvalue="Python.signal" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in HypMatrix.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test_signal" />
+        <item index="3" class="java.lang.String" itemvalue="Python.signal_test (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.signal_test" />
       </list>
     </recent_temporary>
   </component>
@@ -454,15 +467,22 @@
       <option name="project" value="LOCAL" />
       <updated>1515131769802</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="signal processing">
+      <created>1515132396059</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1515132396059</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Nosetests_in_ConvCorr_py - 2018.01.05 at 06h 46m 00s.xml">
-      <configuration name="Nosetests in ConvCorr.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Nosetests_in_ConvCorr_py_(1) - 2018.01.05 at 06h 46m 13s.xml">
       <configuration name="Nosetests in ConvCorr.py (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_HypMatrix_py - 2018.01.05 at 07h 10m 05s.xml">
+      <configuration name="Nosetests in HypMatrix.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Nosetests_in_firwin_py - 2018.01.05 at 06h 23m 37s.xml">
       <configuration name="Nosetests in firwin.py" configurationId="tests" />
@@ -491,17 +511,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1058" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1203125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38646287" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38646287" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995633" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3995633" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982844" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -522,17 +541,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="some work" />
-    <option name="LAST_COMMIT_MESSAGE" value="some work" />
+    <MESSAGE value="signal processing" />
+    <option name="LAST_COMMIT_MESSAGE" value="signal processing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/signal_test/test_signal.py</url>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/Main.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -541,8 +562,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-727419934/scipy/signal/spline.py" />
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-727419934/scipy/optimize/_cobyla.py" />
     <entry file="file://$USER_HOME$/Anaconda3/pkgs/nose-1.3.7-py36h1c3779e_2/Lib/site-packages/nose/core.py" />
     <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-727419934/scipy/signal/sigtools.py" />
     <entry file="file://$PROJECT_DIR$/pillow_test.py">
@@ -703,30 +722,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/signal/firwin/firwin.py" />
-    <entry file="file://$PROJECT_DIR$/ndimage/ndimage_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/signal/signal.py" />
     <entry file="file://$PROJECT_DIR$/signal/convolve/ConvCorr.py" />
     <entry file="file://$PROJECT_DIR$/signal/signal_test.py" />
     <entry file="file://$PROJECT_DIR$/signal_test/signal_test.py" />
-    <entry file="file://$PROJECT_DIR$/ndimage/gaussian/gaussian_filter_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="58" column="54" lean-forward="false" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ndimage/laplace/laplace_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2511">
@@ -734,6 +733,24 @@
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/signal_test/convolve/ConvCorr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1161">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/signal_test/firwin/firwin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1377">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -747,30 +764,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/signal_test/firwin/firwin.py">
+    <entry file="file://$PROJECT_DIR$/linalg_test/hypmat/HypMatrix.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1377">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1431">
+          <caret line="186" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+          <folding>
+            <element signature="e#51#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linalg_test/test_linalg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ndimage/gaussian/gaussian_filter_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ndimage/ndimage_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="438">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/signal_test/convolve/ConvCorr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
