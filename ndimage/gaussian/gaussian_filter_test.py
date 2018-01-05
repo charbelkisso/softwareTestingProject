@@ -56,7 +56,7 @@ class Gaussian_Filter_Test(unittest.TestCase):
         this test will pass if the function raise an error 
         corresponding to the missing argument
         """
-        self.assertEqual(gaussian_filter(self.a), seld.res)
+        self.assertEqual(gaussian_filter(self.a), self.res)
         self.assertEqual(gaussian_filter(), self.res)
 
     
