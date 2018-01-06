@@ -4,12 +4,18 @@ import matplotlib.pyplot as plt
 
 step = 1
 x = np.arange(0,4*np.pi,step)
-y = np.sin(x)
-f = interpolate.interp1d(x,y)
+y = np.cos(-x**2/9.0)
+f = interpolate.interp1d(x,y, kind='cubic')
+x_real = np.arange(0,4*np.pi,0.1)
+y_real = np.cos(-x_real**2/9.0)
 
 xnew = np.arange(0,4*np.pi-step/2,step/10)
 ynew = f(xnew)
-plt.plot(x,y,'o', xnew, ynew, '-')
+plt.plot(x,y,'o',label='point sample')
+plt.plot(xnew,ynew,'-',label='approximated function')
+plt.plot(x_real,y_real,'--',label='actual function')
+plt.legend()
+plt.title("function approximation using scipy interpolate")
 plt.show()
 print(y.min())
 print(ynew.min())
