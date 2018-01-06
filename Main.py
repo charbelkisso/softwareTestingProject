@@ -3,6 +3,7 @@ from signal_test.test_signal import *
 from linalg_test.test_linalg import *
 from integrate_test.test_integrate import *
 from stats_test.stats_test import *
+from test_interpolate.interpolate_test import *
 
 
 
@@ -14,6 +15,7 @@ class Main():
         self.linalg_test = Test_linalg()
         self.integ_test = Test_integrate()
         self.test_stat = Test_Stats()
+        self.test_interpolate = Test_Interpolate()
 
     def main(self):
         self.nd_test.main()
@@ -21,6 +23,7 @@ class Main():
         self.linalg_test.main()
         self.integ_test.main()
         self.test_stat.main()
+        self.test_interpolate.main()
 
 
 if __name__ == '__main__':
