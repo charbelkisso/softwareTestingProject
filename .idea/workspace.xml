@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09a77399-3211-43e9-a685-019409ea4002" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/linalg_test/inv.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/linalg_test/inv.py" afterPath="$PROJECT_DIR$/linalg_test/inv.py" />
+      <change beforePath="$PROJECT_DIR$/linalg_test/test_linalg.py" afterPath="$PROJECT_DIR$/linalg_test/test_linalg.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,10 +20,22 @@
       <file leaf-file-name="inv.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/linalg_test/inv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-440">
-              <caret line="73" column="8" lean-forward="false" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
+            <state relative-caret-position="514">
+              <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_linalg.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linalg_test/test_linalg.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,11 +86,11 @@
         <option value="$PROJECT_DIR$/linalg_test/hypmat/HypMatrix.py" />
         <option value="$PROJECT_DIR$/linalg_test/norm.py" />
         <option value="$PROJECT_DIR$/linalg_test/subspace_angles.py" />
-        <option value="$PROJECT_DIR$/linalg_test/test_linalg.py" />
         <option value="$PROJECT_DIR$/linalg_test/pascal.py" />
         <option value="$PROJECT_DIR$/integrate_test/test_integrate.py" />
         <option value="$PROJECT_DIR$/stats_test/stats_test.py" />
         <option value="$PROJECT_DIR$/test_interpolate/interpolate_test.py" />
+        <option value="$PROJECT_DIR$/linalg_test/test_linalg.py" />
         <option value="$PROJECT_DIR$/linalg_test/inv.py" />
       </list>
     </option>
@@ -137,11 +149,6 @@
               <item name="softwareTestingProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="softwareTestingProject" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="softwareTestingProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="softwareTestingProject" type="462c0819:PsiDirectoryNode" />
-              <item name="linalg_test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -166,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.inv">
+  <component name="RunManager" selected="Python.Main">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -277,9 +284,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.inv" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Main" />
         <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in inv.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Main" />
+        <item index="2" class="java.lang.String" itemvalue="Python.inv" />
         <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in test_linalg.py" />
         <item index="4" class="java.lang.String" itemvalue="Python.main_test" />
       </list>
@@ -432,17 +439,17 @@
     <history-entry file="Nosetests_in_inv_py - 2018.01.07 at 21h 37m 55s.xml">
       <configuration name="Nosetests in inv.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_subspace_angles_py - 2018.01.07 at 15h 22m 06s.xml">
-      <configuration name="Nosetests in subspace_angles.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_inv_py - 2018.01.08 at 00h 41m 59s.xml">
+      <configuration name="Nosetests in inv.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_subspace_angles_py - 2018.01.07 at 15h 23m 32s.xml">
-      <configuration name="Nosetests in subspace_angles.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_inv_py - 2018.01.08 at 00h 42m 27s.xml">
+      <configuration name="Nosetests in inv.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_subspace_angles_py - 2018.01.07 at 16h 06m 26s.xml">
-      <configuration name="Nosetests in subspace_angles.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_inv_py - 2018.01.08 at 00h 43m 03s.xml">
+      <configuration name="Nosetests in inv.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_subspace_angles_py - 2018.01.07 at 16h 07m 10s.xml">
-      <configuration name="Nosetests in subspace_angles.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_inv_py - 2018.01.08 at 00h 44m 53s.xml">
+      <configuration name="Nosetests in inv.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Nosetests_in_subspace_angles_py - 2018.01.07 at 16h 07m 36s.xml">
       <configuration name="Nosetests in subspace_angles.py" configurationId="tests" />
@@ -462,12 +469,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="813" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12013889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14305556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25506073" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25506073" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -502,13 +508,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/linalg_test/inv.py</url>
-          <line>99</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager>
@@ -780,16 +779,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/linalg_test/test_linalg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="24" />
-          <folding />
+        <state relative-caret-position="300">
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/linalg_test/inv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-440">
-          <caret line="73" column="8" lean-forward="false" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
+        <state relative-caret-position="514">
+          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

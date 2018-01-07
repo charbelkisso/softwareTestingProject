@@ -2,6 +2,7 @@ import unittest
 import numpy as np
 from scipy import linalg
 from numpy.testing import *
+from numpy import random
 
 class Test_Inv(unittest.TestCase):
 
@@ -72,7 +73,7 @@ class Test_Inv(unittest.TestCase):
     def test_inv_with_zeros(self):
 
         """
-        the test function should throw exepssion since zero matrix has no inverse
+        the test function should throw exception since zero matrix has no inverse
         :return:
         """
 
@@ -81,51 +82,23 @@ class Test_Inv(unittest.TestCase):
         except Exception as e:
             self.assertEqual(np.linalg.linalg.LinAlgError, e.__class__)
 
+    def test_inv_out_shape(self):
+
+        """
+        random test to compare the dimension of both input and output
+        :return:
+        """
+
+        for i in range(0, 10):
+            shape = random.randint(2, 5)
+            case04 = random.rand(shape,shape)
+            res = linalg.inv(case04)
+            self.assertEqual(case04.shape, res.shape)
+
+
+
     def runTest(self):
         pass
 
-"""
-class myClass():
-
-    def matrix_mult(self,a,b):
-
-        result = [
-            [0,0,0],
-            [0,0,0],
-            [0,0,0]
-        ]
-        for i in range (3):
-            for j in range(3):
-                for k in range (3):
-                    result[i][j] += round(a[i][k]*b[k][j],3)
-
-        return result
-
     def main(self):
-
-        a = np.array([[1,2,4],[3,4,5],[6,8,9]])
-        b = np.array([[3,5,6],[1,4,8],[4,2,6]])
-
-        a_b = self.matrix_mult(a,b)
-
-        c = linalg.inv(a)
-
-        b_new = self.matrix_mult(a_b,c)
-
-        i = a.dot(c)
-
-        i_prime = self.matrix_mult(a,c)
-
-
-
-        print "a= {}".format(a)
-        print "b= {}".format(b)
-        print "c= {}".format(b_new)
-        print "i= {}".format(i_prime)
-
-
-"""
-
-
-if __name__ == '__main__':
-   unittest.main()
+        unittest.main()

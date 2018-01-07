@@ -1,0 +1,58 @@
+x...........................................F......EE
+======================================================================
+ERROR: testdefault (linalg_test.subspace_angles.Test_subspace_angles)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/charbelkisso/software_testing/softwareTestingProject/linalg_test/subspace_angles.py", line 25, in testdefault
+    np.testing.assert_almost_equal(np.rad2deg(linalg.subspace_angles(self.A[:,:2], self.A[:,2:])), self.P)
+AttributeError: module 'scipy.linalg' has no attribute 'subspace_angles'
+
+======================================================================
+ERROR: testinvalid (linalg_test.subspace_angles.Test_subspace_angles)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/charbelkisso/software_testing/softwareTestingProject/linalg_test/subspace_angles.py", line 35, in testinvalid
+    assert_raises(ValueError, linalg.subspace_angles, -1, 0)
+AttributeError: module 'scipy.linalg' has no attribute 'subspace_angles'
+
+======================================================================
+FAIL: test_quad_different_functions_inf_limits (integrate_test.test_integrate.Test_integrate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/charbelkisso/anaconda3/lib/python3.6/site-packages/numpy/testing/utils.py", line 698, in chk_same_position
+    assert_array_equal(x_id, y_id)
+  File "/Users/charbelkisso/anaconda3/lib/python3.6/site-packages/numpy/testing/utils.py", line 854, in assert_array_equal
+    verbose=verbose, header='Arrays are not equal')
+  File "/Users/charbelkisso/anaconda3/lib/python3.6/site-packages/numpy/testing/utils.py", line 778, in assert_array_compare
+    raise AssertionError(msg)
+AssertionError: 
+Arrays are not equal
+
+(mismatch 50.0%)
+ x: array([False, False], dtype=bool)
+ y: array([False,  True], dtype=bool)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/charbelkisso/software_testing/softwareTestingProject/integrate_test/test_integrate.py", line 73, in test_quad_different_functions_inf_limits
+    [np.inf, np.nan], decimal = 9)
+  File "/Users/charbelkisso/anaconda3/lib/python3.6/site-packages/numpy/testing/utils.py", line 563, in assert_almost_equal
+    return assert_array_almost_equal(actual, desired, decimal, err_msg)
+  File "/Users/charbelkisso/anaconda3/lib/python3.6/site-packages/numpy/testing/utils.py", line 962, in assert_array_almost_equal
+    precision=decimal)
+  File "/Users/charbelkisso/anaconda3/lib/python3.6/site-packages/numpy/testing/utils.py", line 724, in assert_array_compare
+    chk_same_position(x_isnan, y_isnan, hasval='nan')
+  File "/Users/charbelkisso/anaconda3/lib/python3.6/site-packages/numpy/testing/utils.py", line 704, in chk_same_position
+    raise AssertionError(msg)
+AssertionError: 
+Arrays are not almost equal to 9 decimals
+
+x and y nan location mismatch:
+ x: array([ inf,  inf])
+ y: array([ inf,  nan])
+
+----------------------------------------------------------------------
+Ran 53 tests in 1.275s
+
+FAILED (failures=1, errors=2, expected failures=1)
