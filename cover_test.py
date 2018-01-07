@@ -59,13 +59,13 @@ class Test_Least_Squares(unittest.TestCase):
 
 	def test1(self):
 		res = least_squares(self.fun, self.x0, jac=self.jac, bounds=(0, 100), args=(self.u, self.y), verbose=1)
-		assert_almost_equal(res.x, self.res_test)
+		assert_almost_equal(res.x, self.res_test,decimal=5)
 	def test2(self):
 		res = least_squares(self.fun, self.x0, bounds=(0, 100), args=(self.u, self.y), verbose=1)
-		assert_almost_equal(res.x, self.res_test)
+		assert_almost_equal(res.x, self.res_test,decimal=4)
 	def test3(self):
 		res = least_squares(self.fun, self.x0, jac=self.jac, bounds=(0, 100), args=(self.u, self.y))
-		assert_almost_equal(res.x, self.res_test)
+		assert_almost_equal(res.x, self.res_test,decimal=5)
 
 
 if __name__ == '__main__':

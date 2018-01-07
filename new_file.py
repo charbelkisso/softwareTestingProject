@@ -40,3 +40,8 @@ def compare_y(a,b):
 
 print(compare_y(y,ynew))
 
+
+import scipy
+
+
+print(scipy.__version__)

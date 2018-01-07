@@ -59,7 +59,8 @@ class Test_Interpolate(unittest.TestCase):
 
         ynew_c = self.f2(xnew)
 
-        self.assertTrue(self.compare_y(self.y,ynew_c))
+        self.assertTrue(self.compare_y(self.y,ynew_c
+                                       ))
 
     def main(self):
         unittest.main()
