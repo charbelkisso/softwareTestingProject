@@ -36,4 +36,6 @@ class Test_Pascal(unittest.TestCase):
 	def main(self):
 		unittest.main()
 
+	def runTest(self):
+		pass
 

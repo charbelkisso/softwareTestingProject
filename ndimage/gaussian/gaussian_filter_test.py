@@ -103,6 +103,9 @@ class Gaussian_Filter_Test(unittest.TestCase):
         assert_array_almost_equal(self.res, self.x)
         self.res = np.array([])
 
+    def runTest(self):
+        pass
+
     def main(self):
         unittest.main()
 

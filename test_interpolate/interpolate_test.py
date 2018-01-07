@@ -64,3 +64,6 @@ class Test_Interpolate(unittest.TestCase):
 
     def main(self):
         unittest.main()
+
+    def runTest(self):
+        pass

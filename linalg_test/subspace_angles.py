@@ -38,4 +38,5 @@ class Test_subspace_angles(unittest.TestCase):
 	def main(self):
 		unittest.main()
 
-
+	def runTest(self):
+		pass

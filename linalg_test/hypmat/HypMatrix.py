@@ -184,4 +184,6 @@ class HyperbolicMatrix_Test(unittest.TestCase):
     def main(self):
         unittest.main()
 
+    def runTest(self):
+        pass
 

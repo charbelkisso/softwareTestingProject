@@ -38,5 +38,8 @@ class Test_norms(unittest.TestCase):
 
 	def main(self):
 		unittest.main()
+
+	def runTest(self):
+		pass
 		
 
