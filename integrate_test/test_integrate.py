@@ -18,7 +18,7 @@ import warnings as w
 import scipy
 
 
-class Scipy_Test(unittest.TestCase):
+class Test_integrate(unittest.TestCase):
 
 
     def setUp(self):
@@ -242,7 +242,8 @@ class Scipy_Test(unittest.TestCase):
         assert_almost_equal(stats.moment([[1, 2, 3], [2,4,6]], moment = 2, axis = 0),
                           [0.25, 1.0, 2.25], decimal = 9)
 
+    def runTest(self):
+      pass
+    def main(self):
+      unittest.main()
 
-if __name__ == '__main__':
-
-    unittest.main()

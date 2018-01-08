@@ -33,24 +33,18 @@ class Test_ConvolveCorrealte(unittest.TestCase):
         self.corr_res_same = [1.5, 2.5, 1.5]
         self.corr_res_valid = [2.5]
 
-
-    def test_default(self):
+    #################
+    # Convolve Test #
+    #################
+    def test_default_convolve(self):
         """
         this is the defult mode of convolve function with correct value
         and expecting correct return
 
         """
         assert_equal(signal.convolve(self.x, self.h), self.conv_res_full)
-        """
-        this is the defult mode of correalte function with correct value
-        and expecting correct return
-
-        """
-        assert_equal(signal.correlate(self.x, self.h), self.corr_res_full)
-
-
-
-    def test_empty_with_direkt(self):
+        
+    def test_empty_with_modes_convolve(self):
         """
         this test check if we could pass an empty array as input
         with direct is not allowed to have empty arrays as input
@@ -69,19 +63,7 @@ class Test_ConvolveCorrealte(unittest.TestCase):
         except Exception as e:
             self.assertEqual(e.__class__, ValueError)
 
-
-        """
-        this test check if we could pass an empty array as input
-        with direct is not allowed to have empty arrays as input
-        in correlate function
-        """
-
-        try:
-            signal.correlate(self.empty1, self.empty2)
-        except Exception as e:
-            self.assertEqual(e.__class__, ValueError)
-
-    def test_empty_with_fft(self):
+    def test_empty_with_fft_convolve(self):
         """
         this test check if we could pass an empty array as input
         with fft is allowed to have empty array as input in convolve
@@ -90,15 +72,7 @@ class Test_ConvolveCorrealte(unittest.TestCase):
         assert_equal(signal.convolve(self.empty1, self.empty2, 'same', 'fft'), self.conv_res_empty)
         assert_equal(signal.convolve(self.empty1, self.empty2, 'full', 'fft'), self.conv_res_empty)
 
-        """
-        this test check if we could pass an empty array as input
-        with fft is allowed to have empty array as input in correlate
-        """
-        assert_equal(signal.correlate(self.empty1, self.empty2, 'valid', 'fft'), self.corr_res_empty)
-        assert_equal(signal.correlate(self.empty1, self.empty2, 'same', 'fft'), self.corr_res_empty)
-        assert_equal(signal.correlate(self.empty1, self.empty2, 'full', 'fft'), self.corr_res_empty)
-
-    def test_with_one_empty(self):
+    def test_with_one_empty_convolve(self):
         """
         testing the convolve function with one empty input
         """
@@ -109,17 +83,7 @@ class Test_ConvolveCorrealte(unittest.TestCase):
         assert_equal(signal.convolve(self.x, self.empty2, 'same', 'fft'), self.conv_res_empty)
         assert_equal(signal.convolve(self.x, self.empty2, 'valid', 'fft'), self.conv_res_empty)
 
-        """
-        testing the correlate with one empty input
-        """
-        assert_equal(signal.correlate(self.empty1, self.h, 'full', 'fft'), self.corr_res_empty)
-        assert_equal(signal.correlate(self.empty1, self.h, 'same', 'fft'), self.corr_res_empty)
-        assert_equal(signal.correlate(self.empty1, self.h, 'valid', 'fft'), self.corr_res_empty)
-        assert_equal(signal.correlate(self.x, self.empty2, 'full', 'fft'), self.corr_res_empty)
-        assert_equal(signal.correlate(self.x, self.empty2, 'same', 'fft'), self.corr_res_empty)
-        assert_equal(signal.correlate(self.x, self.empty2, 'valid', 'fft'), self.corr_res_empty)
-
-    def test_modes_methods(self):
+    def test_modes_methods_convolve(self):
         """
         check if the convolve function will hold write result with
         different modes and methods
@@ -131,6 +95,60 @@ class Test_ConvolveCorrealte(unittest.TestCase):
         assert_almost_equal(signal.convolve(self.x, self.h, 'same', 'direct'), self.conv_res_same)
         assert_almost_equal(signal.convolve(self.x, self.h, 'valid', 'direct'), self.conv_res_valid)
 
+    
+    def test_default_correlate(self):
+        """
+        this is the defult mode of correalte function with correct value
+        and expecting correct return
+
+        """
+        assert_equal(signal.correlate(self.x, self.h), self.corr_res_full)
+
+
+    def test_empty_with_modes_correlate(self):
+        """
+        this test check if we could pass an empty array as input
+        with direct is not allowed to have empty arrays as input
+        in correlate function
+        """
+
+        try:
+            signal.correlate(self.empty1, self.empty2)
+        except Exception as e:
+            self.assertEqual(e.__class__, ValueError)
+        try:
+            signal.correlate(self.empty1, self.empty2, 'same', 'direct')
+        except Exception as e:
+            self.assertEqual(e.__class__, ValueError)
+        try:
+            signal.correlate(self.empty1, self.empty2, 'valid', 'direct')
+        except Exception as e:
+            self.assertEqual(e.__class__, ValueError)
+
+    
+    def test_empty_with_fft_correlate(self):    
+        """
+        this test check if we could pass an empty array as input
+        with fft is allowed to have empty array as input in correlate
+        """
+        assert_equal(signal.correlate(self.empty1, self.empty2, 'valid', 'fft'), self.corr_res_empty)
+        assert_equal(signal.correlate(self.empty1, self.empty2, 'same', 'fft'), self.corr_res_empty)
+        assert_equal(signal.correlate(self.empty1, self.empty2, 'full', 'fft'), self.corr_res_empty)
+
+    
+    def test_with_one_empty_correlate(self):    
+        """
+        testing the correlate with one empty input
+        """
+        assert_equal(signal.correlate(self.empty1, self.h, 'full', 'fft'), self.corr_res_empty)
+        assert_equal(signal.correlate(self.empty1, self.h, 'same', 'fft'), self.corr_res_empty)
+        assert_equal(signal.correlate(self.empty1, self.h, 'valid', 'fft'), self.corr_res_empty)
+        assert_equal(signal.correlate(self.x, self.empty2, 'full', 'fft'), self.corr_res_empty)
+        assert_equal(signal.correlate(self.x, self.empty2, 'same', 'fft'), self.corr_res_empty)
+        assert_equal(signal.correlate(self.x, self.empty2, 'valid', 'fft'), self.corr_res_empty)
+
+    
+    def test_modes_methods_correlate(self):    
         """
         check if the correlate function will hold write result with
         different modes and methods
