@@ -6,9 +6,9 @@ import warnings as w
 
 class Test_subspace_angles(unittest.TestCase):
 
-## The function compute subspace angles between 2 matricies 
-## Tests try it on matricies with orthogonal and non-orthogonal columns, 
-## as well as computing subspace angle of a matrix to itself
+	## The function compute subspace angles between 2 matricies
+	## Tests try it on matricies with orthogonal and non-orthogonal columns,
+	## as well as computing subspace angle of a matrix to itself
 
 	def setUp(self):
 		w.filterwarnings('ignore')
