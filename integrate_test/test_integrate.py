@@ -9,7 +9,7 @@ import numpy as np
 """
 built-in assert function works with arrays and ndArrays 
 """
-from numpy.testing import assert_almost_equal
+from numpy.testing import assert_almost_equal, assert_raises
 """
 functions to test:
 ToDo: add function here to build test cases for it  
@@ -63,7 +63,7 @@ class Test_integrate(unittest.TestCase):
         assert_almost_equal(integrate.quad(self.quad_func1, 0, np.inf),
                           [1.0, 0.0], decimal = 9)
         assert_almost_equal(integrate.quad(self.quad_func2, 0, 4),
-                          [21.3, 0.0], decimal = 9)
+                          [21.3333333333, 0.0], decimal = 9)
         assert_almost_equal(integrate.quad(self.quad_func3, 0, 1, args = (1,)),
                           [0.5, 0.0], decimal = 9)
 
