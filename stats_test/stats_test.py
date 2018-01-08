@@ -17,7 +17,7 @@ class Test_Stats(unittest.TestCase):
         used to calculate pdf mathimatecly in order to test the actual functiom
 
         """
-        y = math.   pi)
+        y = math.exp(-x**2/2)/math.sqrt(2*math.pi)
         return y
 
     def math_cdf(self, x):
