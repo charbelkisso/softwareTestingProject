@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09a77399-3211-43e9-a685-019409ea4002" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/linalg_test/subspace_angles.py" afterPath="$PROJECT_DIR$/linalg_test/subspace_angles.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/testingProject.iml" afterPath="$PROJECT_DIR$/.idea/testingProject.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/integrate_test/test_integrate.py" afterPath="$PROJECT_DIR$/integrate_test/test_integrate.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,11 +19,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stats_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stats_test/stats_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1386">
+              <caret line="69" column="0" lean-forward="true" selection-start-line="67" selection-start-column="10" selection-end-line="69" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="solve.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linalg_test/solve.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="88" column="72" lean-forward="true" selection-start-line="85" selection-start-column="4" selection-end-line="88" selection-end-column="72" />
+            <state relative-caret-position="1936">
+              <caret line="88" column="72" lean-forward="false" selection-start-line="85" selection-start-column="4" selection-end-line="88" selection-end-column="72" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -29,31 +51,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_integrate.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_integrate.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/integrate_test/test_integrate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-340">
-              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+            <state relative-caret-position="4334">
+              <caret line="251" column="0" lean-forward="true" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="subspace_angles.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="subspace_angles.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linalg_test/subspace_angles.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state relative-caret-position="173">
+              <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Python/2.7/lib/python/site-packages/numpy/testing/nose_tools/utils.py">
+      <file leaf-file-name="interpolate_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_interpolate/interpolate_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11445">
-              <caret line="778" column="0" lean-forward="false" selection-start-line="778" selection-start-column="0" selection-end-line="778" selection-end-column="0" />
+            <state relative-caret-position="-386">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -109,8 +131,8 @@
         <option value="$PROJECT_DIR$/linalg_test/solve.py" />
         <option value="$PROJECT_DIR$/linalg_test/test_linalg.py" />
         <option value="$PROJECT_DIR$/linalg_test/norm.py" />
-        <option value="$PROJECT_DIR$/integrate_test/test_integrate.py" />
         <option value="$PROJECT_DIR$/linalg_test/subspace_angles.py" />
+        <option value="$PROJECT_DIR$/integrate_test/test_integrate.py" />
       </list>
     </option>
   </component>
@@ -120,7 +142,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="813" />
@@ -160,8 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,17 +193,6 @@
               <item name="softwareTestingProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="softwareTestingProject" type="462c0819:PsiDirectoryNode" />
               <item name="integrate_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="softwareTestingProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="softwareTestingProject" type="462c0819:PsiDirectoryNode" />
-              <item name="linalg_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="softwareTestingProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="softwareTestingProject" type="462c0819:PsiDirectoryNode" />
-              <item name="linalg_test" type="462c0819:PsiDirectoryNode" />
-              <item name="hypmat" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="softwareTestingProject" type="b2602c69:ProjectViewProjectNode" />
@@ -204,6 +213,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,21 +234,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetests in subspace_angles.py">
-    <configuration name="Nosetests in norm.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Nosetests in test_integrate.py">
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linalg_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="testingProject" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/linalg_test/norm.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <configuration name="Nosetests in pascal.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -319,17 +332,17 @@
       <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in pillow_test.py" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in solve.py" />
       <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in test_integrate.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in norm.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in pascal.py" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.Nosetests in subspace_angles.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in pascal.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in subspace_angles.py" />
+      <item index="5" class="java.lang.String" itemvalue="Python.Main" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in subspace_angles.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in test_integrate.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in solve.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in pascal.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in norm.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in test_integrate.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Main" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in subspace_angles.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in solve.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in pascal.py" />
       </list>
     </recent_temporary>
   </component>
@@ -498,18 +511,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Nosetests_in_subspace_angles_py - 2018.01.08 at 07h 25m 48s.xml">
-      <configuration name="Nosetests in subspace_angles.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_in_test_integrate_py - 2018.01.08 at 05h 50m 00s.xml">
-      <configuration name="Nosetests in test_integrate.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_in_test_integrate_py - 2018.01.08 at 05h 53m 22s.xml">
-      <configuration name="Nosetests in test_integrate.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_in_test_integrate_py - 2018.01.08 at 05h 54m 21s.xml">
-      <configuration name="Nosetests in test_integrate.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Nosetests_in_test_integrate_py - 2018.01.08 at 05h 54m 39s.xml">
       <configuration name="Nosetests in test_integrate.py" configurationId="tests" />
     </history-entry>
@@ -528,21 +529,34 @@
     <history-entry file="Nosetests_in_test_integrate_py - 2018.01.08 at 06h 04m 03s.xml">
       <configuration name="Nosetests in test_integrate.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Nosetests_in_test_integrate_py - 2018.01.08 at 13h 34m 39s.xml">
+      <configuration name="Nosetests in test_integrate.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test_integrate_py - 2018.01.08 at 13h 38m 46s.xml">
+      <configuration name="Nosetests in test_integrate.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test_integrate_py - 2018.01.08 at 13h 40m 53s.xml">
+      <configuration name="Nosetests in test_integrate.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_test_integrate_py - 2018.01.08 at 13h 42m 20s.xml">
+      <configuration name="Nosetests in test_integrate.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="813" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1046" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14517266" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10729167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30222842" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.301179" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39676112" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -551,7 +565,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -677,13 +690,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="235" column="0" lean-forward="false" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/main.py" />
     <entry file="file://$PROJECT_DIR$/main_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -691,14 +698,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py" />
     <entry file="file://$PROJECT_DIR$/ndimage/gaussian/gaussian_filter_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -727,20 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stats_test/stats_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="152" column="12" lean-forward="false" selection-start-line="152" selection-start-column="12" selection-end-line="152" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/signal_test/firwin/firwin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
@@ -748,27 +734,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_interpolate/interpolate_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Python/2.7/lib/python/site-packages/numpy/linalg/linalg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-37393">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Python/2.7/lib/python/site-packages/numpy/linalg/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="50" column="9" lean-forward="false" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Library/Python/2.7/lib/python/site-packages/numpy/linalg/linalg.py" />
+    <entry file="file://$USER_HOME$/Library/Python/2.7/lib/python/site-packages/numpy/linalg/__init__.py" />
     <entry file="file://$PROJECT_DIR$/linalg_test/hypmat/HypMatrix.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
@@ -804,26 +771,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Python/2.7/lib/python/site-packages/numpy/testing/nose_tools/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11445">
-          <caret line="778" column="0" lean-forward="false" selection-start-line="778" selection-start-column="0" selection-end-line="778" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integrate_test/test_integrate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Library/Python/2.7/lib/python/site-packages/numpy/testing/nose_tools/utils.py" />
     <entry file="file://$PROJECT_DIR$/linalg_test/solve.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="88" column="72" lean-forward="true" selection-start-line="85" selection-start-column="4" selection-end-line="88" selection-end-column="72" />
+        <state relative-caret-position="1936">
+          <caret line="88" column="72" lean-forward="false" selection-start-line="85" selection-start-column="4" selection-end-line="88" selection-end-column="72" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -832,8 +784,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/linalg_test/subspace_angles.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="173">
+          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_interpolate/interpolate_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-386">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stats_test/stats_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="69" column="0" lean-forward="true" selection-start-line="67" selection-start-column="10" selection-end-line="69" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integrate_test/test_integrate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4334">
+          <caret line="251" column="0" lean-forward="true" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
           <folding />
         </state>
       </provider>
