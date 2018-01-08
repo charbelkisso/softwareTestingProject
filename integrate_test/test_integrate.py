@@ -1,10 +1,3 @@
-"""
-Software Testing Project - Scipy TestUnit
-Participant:
-- Charbel Kisso
-- Salman Akhtar Warraich
-- add you names here
-"""
 
 """
 importing important libraries for testing
