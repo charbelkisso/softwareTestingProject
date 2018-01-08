@@ -14,15 +14,16 @@ class Test_Stats(unittest.TestCase):
     def math_pdf(self, x):
         """
         this function is obtained from the definition of pdf
+        used to calculate pdf mathimatecly in order to test the actual functiom
 
         """
-        y = math.exp(-x**2/2)/math.sqrt(2*math.pi)
+        y = math.   pi)
         return y
 
     def math_cdf(self, x):
         """
         this function is obtained from the definition of cdf
-
+        used to calculate pdf mathimatecly in order to test the actual functiom
         """
         return (1.0+ math.erf(x/math.sqrt(2.0)))/2.0
 
