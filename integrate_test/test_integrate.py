@@ -160,4 +160,6 @@ class Test_integrate(unittest.TestCase):
     def main(self):
         unittest.main()
 
+    def runTest(self):
+        pass
 

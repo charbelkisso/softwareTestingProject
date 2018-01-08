@@ -92,6 +92,8 @@ class Laplace_Test(unittest.TestCase):
         out_shape = laplace(self.input_array_3d).shape
         self.assertEqual(in_shape, out_shape)
 
+    def runTest(self):
+        pass
 
     def main(self):
         unittest.main()

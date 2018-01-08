@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09a77399-3211-43e9-a685-019409ea4002" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+      <change beforePath="" afterPath="$PROJECT_DIR$/linalg_test/solve.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/linalg_test/test_linalg.py" afterPath="$PROJECT_DIR$/linalg_test/test_linalg.py" />
+>>>>>>> c8851ef0a771b871e90284b8edf168a515bfa5b5
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,9 +22,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main.py">
+      <file leaf-file-name="inv.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linalg_test/inv.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="440">
               <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="27" />
               <folding>
@@ -33,39 +40,22 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="792">
               <caret line="148" column="8" lean-forward="false" selection-start-line="148" selection-start-column="8" selection-end-line="148" selection-end-column="8" />
+=======
+            <state relative-caret-position="1440">
+              <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+>>>>>>> c8851ef0a771b871e90284b8edf168a515bfa5b5
               <folding>
-                <element signature="e#235#261#0" expanded="false" />
-                <element signature="e#298#443#0" expanded="false" />
-                <element signature="e#480#610#0" expanded="false" />
-                <element signature="e#658#948#0" expanded="false" />
-                <element signature="e#995#1265#0" expanded="false" />
-                <element signature="e#1305#1622#0" expanded="false" />
-                <element signature="e#1671#2349#0" expanded="false" />
-                <element signature="e#2396#2588#0" expanded="false" />
-                <element signature="e#2628#2948#0" expanded="false" />
-                <element signature="e#2992#3456#0" expanded="false" />
-                <element signature="e#3497#3910#0" expanded="false" />
-                <element signature="e#3958#4248#0" expanded="false" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scrap.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrap.py">
+      <file leaf-file-name="solve.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/linalg_test/solve.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new_file.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/new_file.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1012">
-              <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+            <state relative-caret-position="250">
+              <caret line="84" column="78" lean-forward="false" selection-start-line="84" selection-start-column="78" selection-end-line="84" selection-end-column="78" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -76,8 +66,8 @@
       <file leaf-file-name="test_linalg.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linalg_test/test_linalg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="345">
+              <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -85,6 +75,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="HypMatrix.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linalg_test/hypmat/HypMatrix.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -145,6 +136,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> c8851ef0a771b871e90284b8edf168a515bfa5b5
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -167,31 +160,44 @@
       <list>
         <option value="$PROJECT_DIR$/pillow_test.py" />
         <option value="$PROJECT_DIR$/scrap.py" />
-        <option value="$PROJECT_DIR$/ndimage/laplace/laplace_test.py" />
-        <option value="$PROJECT_DIR$/ndimage/gaussian/gaussian_filter_test.py" />
         <option value="$PROJECT_DIR$/signal/convolve/ConvCorr.py" />
         <option value="$PROJECT_DIR$/signal/firwin/firwin.py" />
-        <option value="$PROJECT_DIR$/ndimage/ndimage_test.py" />
         <option value="$PROJECT_DIR$/signal/signal.py" />
         <option value="$PROJECT_DIR$/signal/signal_test.py" />
         <option value="$PROJECT_DIR$/signal_test/signal_test.py" />
-        <option value="$PROJECT_DIR$/signal_test/convolve/ConvCorr.py" />
-        <option value="$PROJECT_DIR$/linalg_test/hypmat/HypMatrix.py" />
         <option value="$PROJECT_DIR$/least_square.py" />
         <option value="$PROJECT_DIR$/integrate_test/test_integrate" />
         <option value="$PROJECT_DIR$/scipy_test.py" />
-        <option value="$PROJECT_DIR$/integrate_test/test_integrate.py" />
         <option value="$PROJECT_DIR$/stats_test/pdf_test.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/stats_test/stats_test.py" />
+=======
+        <option value="$PROJECT_DIR$/Main.py" />
+>>>>>>> c8851ef0a771b871e90284b8edf168a515bfa5b5
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/cover_test.py" />
         <option value="$PROJECT_DIR$/new_file.py" />
-        <option value="$PROJECT_DIR$/test_interpolate/interpolate_test.py" />
-        <option value="$PROJECT_DIR$/linalg_test/test_linalg.py" />
-        <option value="$PROJECT_DIR$/linalg_test/pascal.py" />
+        <option value="$PROJECT_DIR$/ndimage/ndimage_test.py" />
+        <option value="$PROJECT_DIR$/main_test.py" />
+        <option value="$PROJECT_DIR$/ndimage/gaussian/gaussian_filter_test.py" />
+        <option value="$PROJECT_DIR$/ndimage/laplace/laplace_test.py" />
+        <option value="$PROJECT_DIR$/signal_test/test_signal.py" />
+        <option value="$PROJECT_DIR$/signal_test/convolve/ConvCorr.py" />
+        <option value="$PROJECT_DIR$/signal_test/firwin/firwin.py" />
+        <option value="$PROJECT_DIR$/linalg_test/hypmat/HypMatrix.py" />
         <option value="$PROJECT_DIR$/linalg_test/norm.py" />
         <option value="$PROJECT_DIR$/linalg_test/subspace_angles.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Main.py" />
+=======
+        <option value="$PROJECT_DIR$/linalg_test/pascal.py" />
+        <option value="$PROJECT_DIR$/integrate_test/test_integrate.py" />
+        <option value="$PROJECT_DIR$/stats_test/stats_test.py" />
+        <option value="$PROJECT_DIR$/test_interpolate/interpolate_test.py" />
+        <option value="$PROJECT_DIR$/linalg_test/inv.py" />
+        <option value="$PROJECT_DIR$/linalg_test/solve.py" />
+        <option value="$PROJECT_DIR$/linalg_test/test_linalg.py" />
+>>>>>>> c8851ef0a771b871e90284b8edf168a515bfa5b5
       </list>
     </option>
   </component>
@@ -201,11 +207,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="y" value="123" />
-    <option name="width" value="1280" />
-    <option name="height" value="709" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="813" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -242,7 +247,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -251,10 +255,19 @@
               <item name="softwareTestingProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="softwareTestingProject" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="softwareTestingProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softwareTestingProject" type="462c0819:PsiDirectoryNode" />
+              <item name="linalg_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> c8851ef0a771b871e90284b8edf168a515bfa5b5
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,7 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Main">
+  <component name="RunManager" selected="Python tests.Nosetests in solve.py">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -291,8 +304,27 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Nosetests in norm.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="inv" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linalg_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="testingProject" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linalg_test/inv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Nosetests in inv.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -304,22 +336,7 @@
       <module name="testingProject" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/linalg_test/norm.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration name="Nosetests in pascal.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linalg_test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="testingProject" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/linalg_test/pascal.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/linalg_test/inv.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="Nosetests in pillow_test.py" type="tests" factoryName="Nosetests" nameIsGenerated="true">
@@ -338,7 +355,7 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/pillow_test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="Nosetests in subspace_angles.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests in solve.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -350,41 +367,39 @@
       <module name="testingProject" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/linalg_test/subspace_angles.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/linalg_test/solve.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="new_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Nosetests in test_linalg.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linalg_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="testingProject" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new_file.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/linalg_test/test_linalg.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in pillow_test.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in norm.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in pascal.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in subspace_angles.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python.new_file" />
-      <item index="5" class="java.lang.String" itemvalue="Python.Main" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Main" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in test_linalg.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in inv.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python.inv" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Nosetests in solve.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Main" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in subspace_angles.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in pascal.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in norm.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python.new_file" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in solve.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Main" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in inv.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python.inv" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in test_linalg.py" />
       </list>
     </recent_temporary>
   </component>
@@ -521,56 +536,67 @@
       <option name="project" value="LOCAL" />
       <updated>1515213882126</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="interpolate done">
+      <created>1515356441642</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1515356441643</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Nosetests_in_norm_py - 2018.01.07 at 15h 23m 14s.xml">
-      <configuration name="Nosetests in norm.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_solve_py - 2018.01.08 at 01h 43m 57s.xml">
+      <configuration name="Nosetests in solve.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_pascal_py - 2018.01.07 at 15h 23m 21s.xml">
-      <configuration name="Nosetests in pascal.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_solve_py - 2018.01.08 at 01h 46m 17s.xml">
+      <configuration name="Nosetests in solve.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_subspace_angles_py - 2018.01.07 at 15h 14m 47s.xml">
-      <configuration name="Nosetests in subspace_angles.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_solve_py - 2018.01.08 at 01h 46m 29s.xml">
+      <configuration name="Nosetests in solve.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_subspace_angles_py - 2018.01.07 at 15h 22m 06s.xml">
-      <configuration name="Nosetests in subspace_angles.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_solve_py - 2018.01.08 at 01h 53m 32s.xml">
+      <configuration name="Nosetests in solve.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_subspace_angles_py - 2018.01.07 at 15h 23m 32s.xml">
-      <configuration name="Nosetests in subspace_angles.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_solve_py - 2018.01.08 at 01h 54m 48s.xml">
+      <configuration name="Nosetests in solve.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_subspace_angles_py - 2018.01.07 at 16h 06m 26s.xml">
-      <configuration name="Nosetests in subspace_angles.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_solve_py - 2018.01.08 at 01h 56m 09s.xml">
+      <configuration name="Nosetests in solve.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_subspace_angles_py - 2018.01.07 at 16h 07m 10s.xml">
-      <configuration name="Nosetests in subspace_angles.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_solve_py - 2018.01.08 at 01h 56m 23s.xml">
+      <configuration name="Nosetests in solve.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_subspace_angles_py - 2018.01.07 at 16h 07m 36s.xml">
-      <configuration name="Nosetests in subspace_angles.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_solve_py - 2018.01.08 at 01h 56m 51s.xml">
+      <configuration name="Nosetests in solve.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_subspace_angles_py - 2018.01.07 at 16h 07m 52s.xml">
-      <configuration name="Nosetests in subspace_angles.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_solve_py - 2018.01.08 at 01h 57m 04s.xml">
+      <configuration name="Nosetests in solve.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_subspace_angles_py - 2018.01.07 at 16h 13m 29s.xml">
-      <configuration name="Nosetests in subspace_angles.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_solve_py - 2018.01.08 at 01h 59m 03s.xml">
+      <configuration name="Nosetests in solve.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1046" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="813" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1203125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14305556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2550911" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25506073" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> c8851ef0a771b871e90284b8edf168a515bfa5b5
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39766702" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39676112" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -579,6 +605,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,7 +625,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="20" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -607,53 +634,7 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-727419934/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="5577" column="6" lean-forward="false" selection-start-line="5577" selection-start-column="6" selection-end-line="5577" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/signal/firwin/firwin.py" />
-    <entry file="file://$PROJECT_DIR$/signal/signal.py" />
-    <entry file="file://$PROJECT_DIR$/signal/convolve/ConvCorr.py" />
-    <entry file="file://$PROJECT_DIR$/signal/signal_test.py" />
     <entry file="file://$PROJECT_DIR$/signal_test/signal_test.py" />
-    <entry file="file://$PROJECT_DIR$/signal_test/test_signal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ndimage/gaussian/gaussian_filter_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="95" column="20" lean-forward="true" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ndimage/ndimage_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ndimage/laplace/laplace_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="96" column="23" lean-forward="false" selection-start-line="95" selection-start-column="5" selection-end-line="96" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/signal_test/convolve/ConvCorr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -669,148 +650,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/unittest/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1676">
-          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/nose/core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/nose/suite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="176" column="0" lean-forward="false" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/nose/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="652" column="0" lean-forward="false" selection-start-line="652" selection-start-column="0" selection-end-line="652" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scipy/integrate/quadpack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="329" column="0" lean-forward="false" selection-start-line="329" selection-start-column="0" selection-end-line="329" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/testing/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="525" column="0" lean-forward="false" selection-start-line="525" selection-start-column="0" selection-end-line="525" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scipy/stats/_continuous_distns.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-727419934/scipy/special/_ufuncs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100782">
-          <caret line="4944" column="4" lean-forward="false" selection-start-line="4944" selection-start-column="4" selection-end-line="4944" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/lib/function_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="2373" column="0" lean-forward="false" selection-start-line="2373" selection-start-column="0" selection-end-line="2373" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/core/numerictypes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="944" column="19" lean-forward="true" selection-start-line="944" selection-start-column="19" selection-end-line="944" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scipy/stats/_distn_infrastructure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16799">
-          <caret line="781" column="8" lean-forward="false" selection-start-line="781" selection-start-column="8" selection-end-line="781" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/core/fromnumeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="2908" column="0" lean-forward="false" selection-start-line="2908" selection-start-column="0" selection-end-line="2908" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scipy/stats/stats.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="886" column="0" lean-forward="false" selection-start-line="886" selection-start-column="0" selection-end-line="886" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/core/numeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="582" column="0" lean-forward="false" selection-start-line="582" selection-start-column="0" selection-end-line="582" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/core/_methods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scipy/interpolate/interpolate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="609" column="0" lean-forward="false" selection-start-line="609" selection-start-column="0" selection-end-line="609" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scipy/interpolate/polyint.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integrate_test/test_integrate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="70" column="36" lean-forward="false" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/signal_test/firwin/firwin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/unittest/main.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/nose/core.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/nose/suite.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/nose/case.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/unittest/case.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scipy/integrate/quadpack.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/testing/utils.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scipy/stats/_continuous_distns.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-727419934/scipy/special/_ufuncs.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/lib/function_base.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/core/numerictypes.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scipy/stats/_distn_infrastructure.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/core/fromnumeric.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scipy/stats/stats.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/core/numeric.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/core/_methods.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scipy/interpolate/interpolate.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scipy/interpolate/polyint.py" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -829,7 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="814">
           <caret line="38" column="20" lean-forward="false" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -843,7 +699,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scrap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="1170">
           <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding />
         </state>
@@ -853,7 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -861,9 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="841">
           <caret line="64" column="58" lean-forward="false" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -871,76 +723,210 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linalg_test/hypmat/HypMatrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4092">
-          <caret line="186" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
-          <folding>
-            <element signature="e#51#66#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
+        <state relative-caret-position="660">
           <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ndimage/ndimage_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="235" column="0" lean-forward="false" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="190" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ndimage/gaussian/gaussian_filter_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ndimage/laplace/laplace_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="95" column="12" lean-forward="false" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/signal_test/convolve/ConvCorr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="148" column="12" lean-forward="false" selection-start-line="148" selection-start-column="12" selection-end-line="148" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/signal_test/test_signal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/integrate_test/test_integrate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="163" column="12" lean-forward="false" selection-start-line="163" selection-start-column="12" selection-end-line="163" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stats_test/stats_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="152" column="12" lean-forward="false" selection-start-line="152" selection-start-column="12" selection-end-line="152" selection-end-column="12" />
+          <folding>
+            <element signature="e#235#261#0" expanded="false" />
+            <element signature="e#298#443#0" expanded="false" />
+            <element signature="e#480#610#0" expanded="false" />
+            <element signature="e#658#948#0" expanded="false" />
+            <element signature="e#995#1265#0" expanded="false" />
+            <element signature="e#1305#1622#0" expanded="false" />
+            <element signature="e#1671#2349#0" expanded="false" />
+            <element signature="e#2396#2588#0" expanded="false" />
+            <element signature="e#2628#2948#0" expanded="false" />
+            <element signature="e#2992#3456#0" expanded="false" />
+            <element signature="e#3497#3910#0" expanded="false" />
+            <element signature="e#3958#4248#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#34#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/signal_test/firwin/firwin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_interpolate/interpolate_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1109">
-          <caret line="62" column="39" lean-forward="false" selection-start-line="62" selection-start-column="39" selection-end-line="62" selection-end-column="39" />
+        <state relative-caret-position="-102">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/test_interpolate/interpolate_test.py">
+=======
+    <entry file="file://$PROJECT_DIR$/linalg_test/subspace_angles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="41" column="12" lean-forward="false" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linalg_test/test_linalg.py">
+    <entry file="file://$PROJECT_DIR$/linalg_test/pascal.py">
+>>>>>>> c8851ef0a771b871e90284b8edf168a515bfa5b5
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="422">
+          <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/linalg_test/norm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="433">
+          <caret line="42" column="12" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="42" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/linalg_test/norm.py">
+=======
+    <entry file="file://$PROJECT_DIR$/linalg_test/hypmat/HypMatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="187" column="12" lean-forward="false" selection-start-line="187" selection-start-column="12" selection-end-line="187" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linalg_test/inv.py">
+>>>>>>> c8851ef0a771b871e90284b8edf168a515bfa5b5
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linalg_test/subspace_angles.py">
+    <entry file="file://$PROJECT_DIR$/linalg_test/test_linalg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        <state relative-caret-position="345">
+          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linalg_test/pascal.py">
+    <entry file="file://$PROJECT_DIR$/linalg_test/solve.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="34" />
+        <state relative-caret-position="250">
+          <caret line="84" column="78" lean-forward="false" selection-start-line="84" selection-start-column="78" selection-end-line="84" selection-end-column="78" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
