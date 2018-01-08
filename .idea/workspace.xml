@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09a77399-3211-43e9-a685-019409ea4002" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/linalg_test/inv.py" afterPath="$PROJECT_DIR$/linalg_test/inv.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/linalg_test/solve.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/linalg_test/test_linalg.py" afterPath="$PROJECT_DIR$/linalg_test/test_linalg.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,13 +18,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="inv.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="inv.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linalg_test/inv.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+            <state relative-caret-position="1440">
+              <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="solve.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/linalg_test/solve.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="84" column="78" lean-forward="false" selection-start-line="84" selection-start-column="78" selection-end-line="84" selection-end-column="78" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -32,8 +45,8 @@
       <file leaf-file-name="test_linalg.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linalg_test/test_linalg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            <state relative-caret-position="345">
+              <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -90,8 +103,9 @@
         <option value="$PROJECT_DIR$/integrate_test/test_integrate.py" />
         <option value="$PROJECT_DIR$/stats_test/stats_test.py" />
         <option value="$PROJECT_DIR$/test_interpolate/interpolate_test.py" />
-        <option value="$PROJECT_DIR$/linalg_test/test_linalg.py" />
         <option value="$PROJECT_DIR$/linalg_test/inv.py" />
+        <option value="$PROJECT_DIR$/linalg_test/solve.py" />
+        <option value="$PROJECT_DIR$/linalg_test/test_linalg.py" />
       </list>
     </option>
   </component>
@@ -149,6 +163,11 @@
               <item name="softwareTestingProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="softwareTestingProject" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="softwareTestingProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softwareTestingProject" type="462c0819:PsiDirectoryNode" />
+              <item name="linalg_test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -173,7 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Main">
+  <component name="RunManager" selected="Python tests.Nosetests in solve.py">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -210,24 +229,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="main_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="testingProject" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="Nosetests in inv.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -259,6 +260,21 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/pillow_test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+    <configuration name="Nosetests in solve.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linalg_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="testingProject" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/linalg_test/solve.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <configuration name="Nosetests in test_linalg.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -277,18 +293,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in pillow_test.py" />
       <item index="1" class="java.lang.String" itemvalue="Python.Main" />
-      <item index="2" class="java.lang.String" itemvalue="Python.main_test" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in test_linalg.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in inv.py" />
-      <item index="5" class="java.lang.String" itemvalue="Python.inv" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in test_linalg.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in inv.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python.inv" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Nosetests in solve.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Main" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in inv.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python.inv" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in test_linalg.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python.main_test" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in solve.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Main" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in inv.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python.inv" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in test_linalg.py" />
       </list>
     </recent_temporary>
   </component>
@@ -436,44 +452,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Nosetests_in_inv_py - 2018.01.07 at 21h 37m 55s.xml">
-      <configuration name="Nosetests in inv.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_solve_py - 2018.01.08 at 01h 43m 57s.xml">
+      <configuration name="Nosetests in solve.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_inv_py - 2018.01.08 at 00h 41m 59s.xml">
-      <configuration name="Nosetests in inv.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_solve_py - 2018.01.08 at 01h 46m 17s.xml">
+      <configuration name="Nosetests in solve.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_inv_py - 2018.01.08 at 00h 42m 27s.xml">
-      <configuration name="Nosetests in inv.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_solve_py - 2018.01.08 at 01h 46m 29s.xml">
+      <configuration name="Nosetests in solve.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_inv_py - 2018.01.08 at 00h 43m 03s.xml">
-      <configuration name="Nosetests in inv.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_solve_py - 2018.01.08 at 01h 53m 32s.xml">
+      <configuration name="Nosetests in solve.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_inv_py - 2018.01.08 at 00h 44m 53s.xml">
-      <configuration name="Nosetests in inv.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_solve_py - 2018.01.08 at 01h 54m 48s.xml">
+      <configuration name="Nosetests in solve.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_subspace_angles_py - 2018.01.07 at 16h 07m 36s.xml">
-      <configuration name="Nosetests in subspace_angles.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_solve_py - 2018.01.08 at 01h 56m 09s.xml">
+      <configuration name="Nosetests in solve.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_subspace_angles_py - 2018.01.07 at 16h 07m 52s.xml">
-      <configuration name="Nosetests in subspace_angles.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_solve_py - 2018.01.08 at 01h 56m 23s.xml">
+      <configuration name="Nosetests in solve.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_subspace_angles_py - 2018.01.07 at 16h 13m 29s.xml">
-      <configuration name="Nosetests in subspace_angles.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_solve_py - 2018.01.08 at 01h 56m 51s.xml">
+      <configuration name="Nosetests in solve.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_test_linalg_py - 2018.01.07 at 21h 16m 08s.xml">
-      <configuration name="Nosetests in test_linalg.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_solve_py - 2018.01.08 at 01h 57m 04s.xml">
+      <configuration name="Nosetests in solve.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_test_linalg_py - 2018.01.07 at 21h 16m 49s.xml">
-      <configuration name="Nosetests in test_linalg.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_solve_py - 2018.01.08 at 01h 59m 03s.xml">
+      <configuration name="Nosetests in solve.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="813" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14305556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14305556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25506073" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25506073" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -508,7 +525,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="25" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -517,7 +534,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/signal/signal_test.py" />
     <entry file="file://$PROJECT_DIR$/signal_test/signal_test.py" />
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
@@ -777,22 +793,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/linalg_test/inv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/linalg_test/test_linalg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="345">
+          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linalg_test/inv.py">
+    <entry file="file://$PROJECT_DIR$/linalg_test/solve.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        <state relative-caret-position="250">
+          <caret line="84" column="78" lean-forward="false" selection-start-line="84" selection-start-column="78" selection-end-line="84" selection-end-column="78" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
