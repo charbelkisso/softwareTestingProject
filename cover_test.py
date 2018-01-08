@@ -45,7 +45,7 @@ class Test_Least_Squares(unittest.TestCase):
 		assert_almost_equal(res.x, self.res_test,decimal=5)
 
 
-	def runTest(self)
+	def runTest(self):
 		pass
 	def main(self):
 		unittest.main()

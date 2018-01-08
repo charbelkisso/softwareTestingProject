@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="09a77399-3211-43e9-a685-019409ea4002" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main.py" afterPath="$PROJECT_DIR$/Main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cover_test.py" afterPath="$PROJECT_DIR$/cover_test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +21,8 @@
       <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="34" />
+            <state relative-caret-position="22">
+              <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -29,9 +31,41 @@
       <file leaf-file-name="stats_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stats_test/stats_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1386">
-              <caret line="69" column="0" lean-forward="true" selection-start-line="67" selection-start-column="10" selection-end-line="69" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="245">
+              <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+              <folding>
+                <marker date="1515436041621" expanded="true" signature="204:4757" ph="..." />
+                <marker date="1515436041621" expanded="true" signature="289:363" ph="..." />
+                <marker date="1515436041621" expanded="true" signature="298:363" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1515436041621" expanded="true" signature="704:716" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1515436041621" expanded="true" signature="704:769" ph="..." />
+                <marker date="1515436041621" expanded="true" signature="808:1107" ph="..." />
+                <marker date="1515436041621" expanded="true" signature="817:976" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1515436041621" expanded="true" signature="1145:1424" ph="..." />
+                <marker date="1515436041621" expanded="true" signature="1154:1229" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1515436041621" expanded="true" signature="1259:1424" ph="..." />
+                <marker date="1515436041621" expanded="true" signature="1455:1781" ph="..." />
+                <marker date="1515436041621" expanded="true" signature="1547:1781" ph="..." />
+                <marker date="1515436041621" expanded="true" signature="1821:2508" ph="..." />
+                <marker date="1515436041621" expanded="true" signature="1830:2031" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1515436041621" expanded="true" signature="2124:2508" ph="..." />
+                <marker date="1515436041621" expanded="true" signature="2300:2402" ph="..." />
+                <marker date="1515436041621" expanded="true" signature="2546:2747" ph="..." />
+                <marker date="1515436041621" expanded="true" signature="2576:2747" ph="..." />
+                <marker date="1515436041621" expanded="true" signature="2778:3107" ph="..." />
+                <marker date="1515436041621" expanded="true" signature="2870:3107" ph="..." />
+                <marker date="1515436041621" expanded="true" signature="3142:3615" ph="..." />
+                <marker date="1515436041621" expanded="true" signature="3234:3615" ph="..." />
+                <marker date="1515436041621" expanded="true" signature="3410:3507" ph="..." />
+                <marker date="1515436041621" expanded="true" signature="3647:4069" ph="..." />
+                <marker date="1515436041621" expanded="true" signature="3656:3813" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1515436041621" expanded="true" signature="4107:4407" ph="..." />
+                <marker date="1515436041621" expanded="true" signature="4139:4407" ph="..." />
+                <marker date="1515436041621" expanded="true" signature="4445:4675" ph="..." />
+                <marker date="1515436041621" expanded="true" signature="4454:4532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+                <marker date="1515436041621" expanded="true" signature="4696:4720" ph="..." />
+                <marker date="1515436041621" expanded="true" signature="4744:4757" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,13 +86,13 @@
         <entry file="file://$PROJECT_DIR$/integrate_test/test_integrate.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-963">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="subspace_angles.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="subspace_angles.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linalg_test/subspace_angles.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="311">
@@ -66,6 +100,16 @@
               <folding>
                 <marker date="1515417659912" expanded="true" signature="1273:1406" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cover_test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cover_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="47" column="22" lean-forward="false" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,9 +155,7 @@
         <option value="$PROJECT_DIR$/integrate_test/test_integrate" />
         <option value="$PROJECT_DIR$/scipy_test.py" />
         <option value="$PROJECT_DIR$/stats_test/pdf_test.py" />
-        <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/cover_test.py" />
         <option value="$PROJECT_DIR$/new_file.py" />
         <option value="$PROJECT_DIR$/ndimage/ndimage_test.py" />
         <option value="$PROJECT_DIR$/main_test.py" />
@@ -123,7 +165,6 @@
         <option value="$PROJECT_DIR$/signal_test/convolve/ConvCorr.py" />
         <option value="$PROJECT_DIR$/signal_test/firwin/firwin.py" />
         <option value="$PROJECT_DIR$/linalg_test/pascal.py" />
-        <option value="$PROJECT_DIR$/stats_test/stats_test.py" />
         <option value="$PROJECT_DIR$/test_interpolate/interpolate_test.py" />
         <option value="$PROJECT_DIR$/linalg_test/inv.py" />
         <option value="$PROJECT_DIR$/linalg_test/hypmat/HypMatrix.py" />
@@ -132,6 +173,9 @@
         <option value="$PROJECT_DIR$/linalg_test/norm.py" />
         <option value="$PROJECT_DIR$/integrate_test/test_integrate.py" />
         <option value="$PROJECT_DIR$/linalg_test/subspace_angles.py" />
+        <option value="$PROJECT_DIR$/stats_test/stats_test.py" />
+        <option value="$PROJECT_DIR$/Main.py" />
+        <option value="$PROJECT_DIR$/cover_test.py" />
       </list>
     </option>
   </component>
@@ -226,6 +270,116 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/stats_test/stats_test.py</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -238,7 +392,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetests in subspace_angles.py">
+  <component name="RunManager" selected="Python.Main">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -342,9 +496,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in subspace_angles.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in test_integrate.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Main" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in subspace_angles.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in test_integrate.py" />
         <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in solve.py" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in pascal.py" />
       </list>
@@ -525,7 +679,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515417663852</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="refactor">
+      <created>1515417669559</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1515417669559</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -562,6 +723,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1046" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10729167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -679,13 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cover_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="64" column="58" lean-forward="false" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pillow_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -799,26 +954,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stats_test/stats_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="69" column="0" lean-forward="true" selection-start-line="67" selection-start-column="10" selection-end-line="69" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/integrate_test/test_integrate.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-963">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -838,6 +977,62 @@
           <folding>
             <marker date="1515417659912" expanded="true" signature="1273:1406" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stats_test/stats_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding>
+            <marker date="1515436041621" expanded="true" signature="204:4757" ph="..." />
+            <marker date="1515436041621" expanded="true" signature="289:363" ph="..." />
+            <marker date="1515436041621" expanded="true" signature="298:363" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1515436041621" expanded="true" signature="704:716" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1515436041621" expanded="true" signature="704:769" ph="..." />
+            <marker date="1515436041621" expanded="true" signature="808:1107" ph="..." />
+            <marker date="1515436041621" expanded="true" signature="817:976" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1515436041621" expanded="true" signature="1145:1424" ph="..." />
+            <marker date="1515436041621" expanded="true" signature="1154:1229" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1515436041621" expanded="true" signature="1259:1424" ph="..." />
+            <marker date="1515436041621" expanded="true" signature="1455:1781" ph="..." />
+            <marker date="1515436041621" expanded="true" signature="1547:1781" ph="..." />
+            <marker date="1515436041621" expanded="true" signature="1821:2508" ph="..." />
+            <marker date="1515436041621" expanded="true" signature="1830:2031" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1515436041621" expanded="true" signature="2124:2508" ph="..." />
+            <marker date="1515436041621" expanded="true" signature="2300:2402" ph="..." />
+            <marker date="1515436041621" expanded="true" signature="2546:2747" ph="..." />
+            <marker date="1515436041621" expanded="true" signature="2576:2747" ph="..." />
+            <marker date="1515436041621" expanded="true" signature="2778:3107" ph="..." />
+            <marker date="1515436041621" expanded="true" signature="2870:3107" ph="..." />
+            <marker date="1515436041621" expanded="true" signature="3142:3615" ph="..." />
+            <marker date="1515436041621" expanded="true" signature="3234:3615" ph="..." />
+            <marker date="1515436041621" expanded="true" signature="3410:3507" ph="..." />
+            <marker date="1515436041621" expanded="true" signature="3647:4069" ph="..." />
+            <marker date="1515436041621" expanded="true" signature="3656:3813" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1515436041621" expanded="true" signature="4107:4407" ph="..." />
+            <marker date="1515436041621" expanded="true" signature="4139:4407" ph="..." />
+            <marker date="1515436041621" expanded="true" signature="4445:4675" ph="..." />
+            <marker date="1515436041621" expanded="true" signature="4454:4532" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1515436041621" expanded="true" signature="4696:4720" ph="..." />
+            <marker date="1515436041621" expanded="true" signature="4744:4757" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cover_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="47" column="22" lean-forward="false" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -4,7 +4,7 @@ from linalg_test.test_linalg import *
 from integrate_test.test_integrate import *
 from stats_test.stats_test import *
 from test_interpolate.interpolate_test import *
-from covet_test import *
+from cover_test import *
 
 
 
