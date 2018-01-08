@@ -9,7 +9,7 @@ import numpy as np
 """
 built-in assert function works with arrays and ndArrays 
 """
-from numpy.testing import assert_equal, assert_almost_equal
+from numpy.testing import assert_almost_equal
 """
 functions to test:
 ToDo: add function here to build test cases for it  
@@ -63,7 +63,7 @@ class Test_integrate(unittest.TestCase):
         assert_almost_equal(integrate.quad(self.quad_func1, 0, np.inf),
                           [1.0, 0.0], decimal = 9)
         assert_almost_equal(integrate.quad(self.quad_func2, 0, 4),
-                          [64/3, 0.0], decimal = 9)
+                          [21.3, 0.0], decimal = 9)
         assert_almost_equal(integrate.quad(self.quad_func3, 0, 1, args = (1,)),
                           [0.5, 0.0], decimal = 9)
 
@@ -74,7 +74,7 @@ class Test_integrate(unittest.TestCase):
 
     def test_quad_different_functions_negative_limits(self):
         assert_almost_equal(integrate.quad(self.quad_func2, -4, 0),
-                          [64/3, 0.0], decimal = 9)
+                          [21.33333333333, 0.0], decimal = 9)
         assert_almost_equal(integrate.quad(self.quad_func3, -1, 0, args = (1,)),
                           [-0.5, 0.0], decimal = 9)
 
@@ -113,7 +113,7 @@ class Test_integrate(unittest.TestCase):
                           [0.25, 0.0], decimal = 6)
         # func3 with expression in the limit
         assert_almost_equal(integrate.dblquad(self.dblquad_func3, 0, 0.5, self.dblquad_func3_lo, self.dblquad_func3_up),
-                          [1/96, 0.0], decimal = 6)
+                          [0.0104166666666, 0.0], decimal = 6)
 
     def test_dblquad_with_all_limits_zero(self):
         # func1 with constant limits

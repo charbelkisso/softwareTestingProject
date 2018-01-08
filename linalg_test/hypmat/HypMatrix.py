@@ -14,9 +14,7 @@ functions to test:
 
 ToDo: add function here to build test cases for it
 """
-from scipy import misc, linalg, imag, signal
-from scipy.linalg import expm, sinm, cosm, tanm
-import scipy
+import scipy.linalg
 
 
 class HyperbolicMatrix_Test(unittest.TestCase):
@@ -29,21 +27,21 @@ class HyperbolicMatrix_Test(unittest.TestCase):
         :Def Arrays:
         """
         self.a = np.array([[1.0, 2.0],[-1.0, 3.0]])
-        self.one_zero= np.array([[1.0, 2.0],[-1.0, 0.0]])
-        self.array_zero= np.array([[1.0, 2.0],[0.0, 0.0]])
-        self.all_zero= np.array([[0, 0],[0, 0]])
+        self.one_zero = np.array([[1.0, 2.0],[-1.0, 0.0]])
+        self.array_zero = np.array([[1.0, 2.0],[0.0, 0.0]])
+        self.all_zero = np.array([[0, 0],[0, 0]])
 
 
         """
         :Def Expected Sine Results:
         """
-        self.sin_res= np.array([[1.89,-0.97],
+        self.sin_res = np.array([[1.89,-0.97],
                                 [0.48,0.91]])
-        self.sin_res_one_zero= np.array([[ 1.54,2.31],
+        self.sin_res_one_zero = np.array([[ 1.54,2.31],
                                          [-1.16,0.39]])
-        self.sin_res_array_zero= np.array([[0.84,1.68],
+        self.sin_res_array_zero = np.array([[0.84,1.68],
                                            [0,0]])
-        self.sin_res_all_zero= np.array([[0,0],
+        self.sin_res_all_zero = np.array([[0,0],
                                 [0,0]])
 
         """
@@ -70,7 +68,8 @@ class HyperbolicMatrix_Test(unittest.TestCase):
         self.tan_res_all_zero= np.array([[0,0],
                                          [0,0]])
 
-    def test_norm(self):
+    def test_sinm(self):
+
         """
         this test unit meant to test sinm function from scypi.linalg
 
@@ -81,25 +80,6 @@ class HyperbolicMatrix_Test(unittest.TestCase):
         assert_almost_equal(scipy.linalg.sinm(self.a), self.sin_res, decimal=2)
 
         """
-        this test unit meant to test cosm function from scypi.linalg
-
-        function description:
-        ---------------------
-        Compute the matrix cosine
-        """
-        assert_almost_equal(scipy.linalg.cosm(self.a), self.cos_res, decimal=2)
-
-        """
-        this test unit meant to test tanm function from scypi.linalg
-
-        function description:
-        ---------------------
-        Compute the matrix tangent
-        """
-        assert_almost_equal(scipy.linalg.tanm(self.a), self.tan_res, decimal=2)
-
-    def test_norm_one_zero(self):
-        """
         this test unit meant to test sinm function from scypi.linalg
 
         function description:
@@ -107,26 +87,6 @@ class HyperbolicMatrix_Test(unittest.TestCase):
         Compute the matrix sine with one zero element
         """
         assert_almost_equal(scipy.linalg.sinm(self.one_zero), self.sin_res_one_zero, decimal=2)
-
-        """
-        this test unit meant to test cosm function from scypi.linalg
-
-        function description:
-        ---------------------
-        Compute the matrix cosine with one zero element
-        """
-        assert_almost_equal(scipy.linalg.cosm(self.one_zero), self.cos_res_one_zero, decimal=2)
-
-        """
-        this test unit meant to test tanm function from scypi.linalg
-
-        function description:
-        ---------------------
-        Compute the matrix tangent with one zero element
-        """
-        assert_almost_equal(scipy.linalg.tanm(self.one_zero), self.tan_res_one_zero, decimal=2)
-
-    def test_norm_array_zero(self):
 
         """
         this test unit meant to test sinm function from scypi.linalg
@@ -138,24 +98,6 @@ class HyperbolicMatrix_Test(unittest.TestCase):
         assert_almost_equal(scipy.linalg.sinm(self.array_zero), self.sin_res_array_zero, decimal=2)
 
         """
-        this test unit meant to test cosm function from scypi.linalg
-
-        function description:
-        ---------------------
-        Compute the matrix cosine with one zero array
-        """
-        assert_almost_equal(scipy.linalg.cosm(self.array_zero), self.cos_res_array_zero, decimal=2)
-        """
-        this test unit meant to test tanm function from scypi.linalg
-
-        function description:
-        ---------------------
-        Compute the matrix tangent with one zero array
-        """
-        assert_almost_equal(scipy.linalg.tanm(self.array_zero), self.tan_res_array_zero, decimal=2)
-
-    def test_all_zero(self):
-        """
         this test unit meant to test sinm function from scypi.linalg
 
         function description:
@@ -163,6 +105,38 @@ class HyperbolicMatrix_Test(unittest.TestCase):
         Compute the matrix sine with all zero arrays
         """
         assert_equal(scipy.linalg.sinm(self.all_zero), self.sin_res_all_zero)
+
+
+
+
+
+    def test_cosm(self):
+        """
+        this test unit meant to test cosm function from scypi.linalg
+
+        function description:
+        ---------------------
+        Compute the matrix cosine
+        """
+        assert_almost_equal(scipy.linalg.cosm(self.a), self.cos_res, decimal=2)
+
+        """
+        this test unit meant to test cosm function from scypi.linalg
+
+        function description:
+        ---------------------
+        Compute the matrix cosine with one zero element
+        """
+        assert_almost_equal(scipy.linalg.cosm(self.one_zero), self.cos_res_one_zero, decimal=2)
+
+        """
+        this test unit meant to test cosm function from scypi.linalg
+
+        function description:
+        ---------------------
+        Compute the matrix cosine with one zero array
+        """
+        assert_almost_equal(scipy.linalg.cosm(self.array_zero), self.cos_res_array_zero, decimal=2)
 
         """
         this test unit meant to test cosm function from scypi.linalg
@@ -172,6 +146,40 @@ class HyperbolicMatrix_Test(unittest.TestCase):
         Compute the matrix cosine with all zero arrays
         """
         assert_equal(scipy.linalg.cosm(self.all_zero), self.cos_res_all_zero)
+
+
+
+    def test_tanm(self):
+
+        """
+        this test unit meant to test tanm function from scypi.linalg
+
+        function description:
+        ---------------------
+        Compute the matrix tangent
+        """
+        assert_almost_equal(scipy.linalg.tanm(self.a), self.tan_res, decimal=2)
+
+        """
+        this test unit meant to test tanm function from scypi.linalg
+
+        function description:
+        ---------------------
+        Compute the matrix tangent with one zero element
+        """
+        assert_almost_equal(scipy.linalg.tanm(self.one_zero), self.tan_res_one_zero, decimal=2)
+
+
+
+        """
+        this test unit meant to test tanm function from scypi.linalg
+
+        function description:
+        ---------------------
+        Compute the matrix tangent with one zero array
+        """
+        assert_almost_equal(scipy.linalg.tanm(self.array_zero), self.tan_res_array_zero, decimal=2)
+
         """
         this test unit meant to test tanm function from scypi.linalg
 

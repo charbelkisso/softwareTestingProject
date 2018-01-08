@@ -27,7 +27,6 @@ class Test_norms(unittest.TestCase):
 
 	def testinvalid(self):
 		# order of norm should be non-zero int, 'fro', inf, -inf
-
 		assert_raises(ValueError, linalg.norm, self.A, 0)
 		assert_raises(ValueError, linalg.norm, self.A, 3.4)
 		assert_raises(ValueError, linalg.norm, self.A, 'flo')

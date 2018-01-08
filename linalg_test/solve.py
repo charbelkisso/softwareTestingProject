@@ -55,7 +55,6 @@ class Test_Solve(unittest.TestCase):
             [0.76]
         ])
 
-
         """
             this from the property solve(I, B) = B
             where I is the identity matrix
