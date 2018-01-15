@@ -8,7 +8,7 @@
     
     
     <meta http-equiv="X-UA-Compatible" content="IE=emulateIE7" />
-    <title>Coverage for least_square.py: 49%</title>
+    <title>Coverage for least_square.py: 50%</title>
     <link rel="stylesheet" href="style.css" type="text/css">
     
     <script type="text/javascript" src="jquery.min.js"></script>
@@ -24,15 +24,15 @@
 <div id="header">
     <div class="content">
         <h1>Coverage for <b>least_square.py</b> :
-            <span class="pc_cov">49%</span>
+            <span class="pc_cov">50%</span>
         </h1>
 
         <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
 
         <h2 class="stats">
             254 statements &nbsp;
-            <span class="run hide_run shortkey_r button_toggle_run">125 run</span>
-            <span class="mis shortkey_m button_toggle_mis">129 missing</span>
+            <span class="run hide_run shortkey_r button_toggle_run">127 run</span>
+            <span class="mis shortkey_m button_toggle_mis">127 missing</span>
             <span class="exc shortkey_x button_toggle_exc">0 excluded</span>
 
             
@@ -347,11 +347,11 @@
 <p id="n278" class="stm mis"><a href="#n278">278</a></p>
 <p id="n279" class="pln"><a href="#n279">279</a></p>
 <p id="n280" class="stm run hide_run"><a href="#n280">280</a></p>
-<p id="n281" class="stm mis"><a href="#n281">281</a></p>
+<p id="n281" class="stm run hide_run"><a href="#n281">281</a></p>
 <p id="n282" class="pln"><a href="#n282">282</a></p>
 <p id="n283" class="pln"><a href="#n283">283</a></p>
 <p id="n284" class="stm run hide_run"><a href="#n284">284</a></p>
-<p id="n285" class="stm mis"><a href="#n285">285</a></p>
+<p id="n285" class="stm run hide_run"><a href="#n285">285</a></p>
 <p id="n286" class="pln"><a href="#n286">286</a></p>
 <p id="n287" class="stm run hide_run"><a href="#n287">287</a></p>
 <p id="n288" class="pln"><a href="#n288">288</a></p>
@@ -779,11 +779,11 @@
 <p id="t278" class="stm mis">        <span class="key">raise</span> <span class="nam">ValueError</span><span class="op">(</span><span class="str">"Inconsistent shapes between bounds and `x0`."</span><span class="op">)</span><span class="strut">&nbsp;</span></p>
 <p id="t279" class="pln"><span class="strut">&nbsp;</span></p>
 <p id="t280" class="stm run hide_run">    <span class="key">if</span> <span class="nam">np</span><span class="op">.</span><span class="nam">any</span><span class="op">(</span><span class="nam">lb</span> <span class="op">>=</span> <span class="nam">ub</span><span class="op">)</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
-<p id="t281" class="stm mis">        <span class="key">raise</span> <span class="nam">ValueError</span><span class="op">(</span><span class="str">"Each lower bound must be strictly less than each "</span><span class="strut">&nbsp;</span></p>
+<p id="t281" class="stm run hide_run">        <span class="key">raise</span> <span class="nam">ValueError</span><span class="op">(</span><span class="str">"Each lower bound must be strictly less than each "</span><span class="strut">&nbsp;</span></p>
 <p id="t282" class="pln">                         <span class="str">"upper bound."</span><span class="op">)</span><span class="strut">&nbsp;</span></p>
 <p id="t283" class="pln"><span class="strut">&nbsp;</span></p>
 <p id="t284" class="stm run hide_run">    <span class="key">if</span> <span class="key">not</span> <span class="nam">in_bounds</span><span class="op">(</span><span class="nam">x0</span><span class="op">,</span> <span class="nam">lb</span><span class="op">,</span> <span class="nam">ub</span><span class="op">)</span><span class="op">:</span><span class="strut">&nbsp;</span></p>
-<p id="t285" class="stm mis">        <span class="key">raise</span> <span class="nam">ValueError</span><span class="op">(</span><span class="str">"`x0` is infeasible."</span><span class="op">)</span><span class="strut">&nbsp;</span></p>
+<p id="t285" class="stm run hide_run">        <span class="key">raise</span> <span class="nam">ValueError</span><span class="op">(</span><span class="str">"`x0` is infeasible."</span><span class="op">)</span><span class="strut">&nbsp;</span></p>
 <p id="t286" class="pln"><span class="strut">&nbsp;</span></p>
 <p id="t287" class="stm run hide_run">    <span class="nam">x_scale</span> <span class="op">=</span> <span class="nam">check_x_scale</span><span class="op">(</span><span class="nam">x_scale</span><span class="op">,</span> <span class="nam">x0</span><span class="op">)</span><span class="strut">&nbsp;</span></p>
 <p id="t288" class="pln"><span class="strut">&nbsp;</span></p>
@@ -938,7 +938,7 @@
     <div class="content">
         <p>
             <a class="nav" href="index.html">&#xab; index</a> &nbsp; &nbsp; <a class="nav" href="https://coverage.readthedocs.io">coverage.py v4.4.2</a>,
-            created at 2018-01-15 22:32
+            created at 2018-01-16 00:09
         </p>
     </div>
 </div>

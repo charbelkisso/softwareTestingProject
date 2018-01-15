@@ -89,7 +89,10 @@ class Test_Least_Squares(unittest.TestCase):
 		assert_raises(ValueError, least_squares, self.fun, self.x0_ndim)
 		#invalid method with bound
 		assert_raises(ValueError, least_squares, self.fun, self.x0, method='lm', bounds=(0, 100))
-
+		#invalid bound low > high
+		assert_raises(ValueError, least_squares, self.fun, self.x0, bounds=(100, 50))
+		# x0 not in bound
+		assert_raises(ValueError, least_squares, self.fun, self.x0, bounds=(0, 2))
 
 	def runTest(self):
 		pass
