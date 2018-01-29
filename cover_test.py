@@ -14,7 +14,8 @@ functions to test:
 
 ToDo: add function here to build test cases for it
 """
-from scipy.optimize import least_squares
+
+from least_square import least_squares
 
 class Test_Least_Squares(unittest.TestCase):
 
@@ -36,6 +37,15 @@ class Test_Least_Squares(unittest.TestCase):
 			[4, 5, 6]
 		])
 
+	"""	
+	def cauchy(self,z, rho, cost_only):
+		rho[0] = np.log1p(z)
+		if cost_only:
+			return
+		t = 1 + z
+		rho[1] = 1 / t
+		rho[2] = -1 / t ** 2
+	"""
 	def model (self, x, u):
 
 		return x[0] * (u ** 2 + x[1] * u) / (u ** 2 + x[2] * u + x[3])
@@ -88,7 +98,13 @@ class Test_Least_Squares(unittest.TestCase):
 		assert_raises(ValueError, least_squares, self.fun, self.x0, bounds=(100, 50))
 		# x0 not in bound
 		assert_raises(ValueError, least_squares, self.fun, self.x0, bounds=(0, 2))
-
+		# method = lm and jac sparsity = none
+		assert_raises(ValueError, least_squares, self.fun, self.x0, method = 'lm', jac_sparsity = None, bounds=(0, 2))
+		# method = lm and jac sparsity != none and tr_solver = exact
+		assert_raises(ValueError, least_squares, self.fun, self.x0, method = 'lm', jac_sparsity = 'sparse matrix' , tr_solver = 'exact', bounds=(0, 2))
+		# loss function is none
+		assert_raises(ValueError, least_squares, self.fun, self.x0, jac='3-point', bounds=(0, 100), loss=None, tr_solver=None,
+						args=(self.u, self.y))
 	def test2_green(self):
 		"""
 		2: Green Test Path: This test will execute least_square function with default values
@@ -97,6 +113,8 @@ class Test_Least_Squares(unittest.TestCase):
 		"""
 		res = least_squares(self.fun, self.x0, bounds=(0, 100),args=(self.u, self.y))
 		assert_almost_equal(res.x, self.res_test,decimal=3)
+		res = least_squares(self.fun, self.x0, bounds=(0, 100), args=(self.u, self.y), ftol=1e-20, xtol=1e-24, gtol=1e-23)
+		assert_almost_equal(res.x, self.res_test, decimal=3)
 
 	def test3_blue(self):
 		"""
@@ -114,21 +132,40 @@ class Test_Least_Squares(unittest.TestCase):
 		res = least_squares(self.fun, self.x0, jac='2-point',method='lm',tr_solver='exact', args=(self.u, self.y))
 		assert_almost_equal(res.x, self.res_unbound_test,decimal=4)
 
+
 	def test5_cyan(self):
 		"""
-		4: Yellow Test Path: This test will cover:
+		4: Cyan Test Path: This test will cover:
 		callable jacobian=self, method=='dogbox',bounded,loss='linear',tr_solve='lsmr',jac_sparsity=array_like, verbose=default,
 		"""
 		res = least_squares(self.fun, self.x0, jac=self.jac,bounds=(0, 100), method='dogbox',loss='linear',tr_solver='lsmr', args=(self.u, self.y),jac_sparsity='sparse matrix')
 		assert_almost_equal(res.x, self.res_test,decimal=3)
 
-	def test5_grey(self):
+
+	def test6_grey(self):
 		"""
 		4: Grey Test Path: This test will cover:
 		jacobian='3-point', method=default, bounded, loss='linear',tr_solve=none, verbose=default,
 		"""
 		res = least_squares(self.fun, self.x0, jac='3-point',bounds=(0, 100),loss='linear',tr_solver=None, args=(self.u, self.y))
 		assert_almost_equal(res.x, self.res_test,decimal=3)
+		res = least_squares(self.fun, self.x0, jac='3-point', bounds=(0, 100), loss='huber', tr_solver=None,
+							args=(self.u, self.y))
+		assert_almost_equal(res.x, self.res_test, decimal=3)
+		res = least_squares(self.fun, self.x0, jac='3-point', bounds=(0, 100), loss='cauchy', tr_solver=None,
+							args=(self.u, self.y))
+		assert_almost_equal(res.x, self.res_test, decimal=3)
+		res = least_squares(self.fun, self.x0, jac='3-point', bounds=(0, 100), loss='soft_l1', tr_solver=None,
+							args=(self.u, self.y))
+		assert_almost_equal(res.x, self.res_test, decimal=3)
+
+		res = least_squares(self.fun, self.x0, jac='3-point', bounds=(0, 100), loss='arctan', tr_solver=None,
+							args=(self.u, self.y))
+		assert_almost_equal(res.x, self.res_test, decimal=3)
+
+#		res = least_squares(self.fun, self.x0, jac='3-point', bounds=(0, 100), loss=None, tr_solver=None,
+#						args=(self.u, self.y))
+#		assert_almost_equal(res.x, self.res_test, decimal=3)
 
 	def runTest(self):
 		pass

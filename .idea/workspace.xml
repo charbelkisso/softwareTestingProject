@@ -6,9 +6,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/testingProject.iml" afterPath="$PROJECT_DIR$/.idea/testingProject.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cover_test.py" afterPath="$PROJECT_DIR$/cover_test.py" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/cover_test_py.html" afterPath="$PROJECT_DIR$/htmlcov/cover_test_py.html" />
       <change beforePath="$PROJECT_DIR$/htmlcov/index.html" afterPath="$PROJECT_DIR$/htmlcov/index.html" />
-      <change beforePath="$PROJECT_DIR$/log.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/least_square_py.html" afterPath="$PROJECT_DIR$/htmlcov/least_square_py.html" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/status.json" afterPath="$PROJECT_DIR$/htmlcov/status.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,56 +20,50 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5296875">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Main.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="cover_test.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/cover_test.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1548">
-                  <caret line="90" column="96" lean-forward="false" selection-start-line="90" selection-start-column="96" selection-end-line="90" selection-end-column="96" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="interpolate_test.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test_interpolate/interpolate_test.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="486">
-                  <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="least_square.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/least_square.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4698">
-                  <caret line="276" column="21" lean-forward="false" selection-start-line="276" selection-start-column="11" selection-end-line="276" selection-end-column="21" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="least_square.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/least_square.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="187" column="7" lean-forward="false" selection-start-line="187" selection-start-column="7" selection-end-line="187" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cover_test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cover_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="170" column="12" lean-forward="true" selection-start-line="170" selection-start-column="12" selection-end-line="170" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="interpolate_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_interpolate/interpolate_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -506,46 +502,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Nosetests_in_cover_test_py - 2018.01.15 at 22h 55m 15s.xml">
+    <history-entry file="Nosetests_in_cover_test_py - 2018.01.29 at 13h 49m 40s.xml">
       <configuration name="Nosetests in cover_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_cover_test_py - 2018.01.15 at 23h 02m 08s.xml">
+    <history-entry file="Nosetests_in_cover_test_py - 2018.01.29 at 13h 50m 01s.xml">
       <configuration name="Nosetests in cover_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_cover_test_py - 2018.01.15 at 23h 54m 46s.xml">
+    <history-entry file="Nosetests_in_cover_test_py - 2018.01.29 at 13h 51m 17s.xml">
       <configuration name="Nosetests in cover_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_cover_test_py - 2018.01.16 at 00h 00m 48s.xml">
+    <history-entry file="Nosetests_in_cover_test_py - 2018.01.29 at 13h 52m 17s.xml">
       <configuration name="Nosetests in cover_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_cover_test_py - 2018.01.16 at 00h 02m 57s.xml">
+    <history-entry file="Nosetests_in_cover_test_py - 2018.01.29 at 13h 58m 57s.xml">
       <configuration name="Nosetests in cover_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_test_integrate_py - 2018.01.08 at 06h 04m 03s.xml">
-      <configuration name="Nosetests in test_integrate.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_cover_test_py - 2018.01.29 at 14h 04m 41s.xml">
+      <configuration name="Nosetests in cover_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_test_integrate_py - 2018.01.08 at 13h 34m 39s.xml">
-      <configuration name="Nosetests in test_integrate.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_cover_test_py - 2018.01.29 at 14h 05m 39s.xml">
+      <configuration name="Nosetests in cover_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_test_integrate_py - 2018.01.08 at 13h 38m 46s.xml">
-      <configuration name="Nosetests in test_integrate.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_cover_test_py - 2018.01.29 at 14h 07m 03s.xml">
+      <configuration name="Nosetests in cover_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_test_integrate_py - 2018.01.08 at 13h 40m 53s.xml">
-      <configuration name="Nosetests in test_integrate.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_cover_test_py - 2018.01.29 at 14h 14m 17s.xml">
+      <configuration name="Nosetests in cover_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_test_integrate_py - 2018.01.08 at 13h 42m 20s.xml">
-      <configuration name="Nosetests in test_integrate.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_cover_test_py - 2018.01.29 at 14h 14m 47s.xml">
+      <configuration name="Nosetests in cover_test.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-1" width="1922" height="1061" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13476562" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29986244" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2994475" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -588,7 +585,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scipy/integrate/quadpack.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scipy/stats/_continuous_distns.py" />
     <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-727419934/scipy/special/_ufuncs.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/lib/function_base.py" />
@@ -729,14 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/core/numeric.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/unittest/main.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_nosetest_runner.py">
@@ -753,24 +741,42 @@
     <entry file="file://$USER_HOME$/Anaconda3/Lib/unittest/case.py" />
     <entry file="file://$PROJECT_DIR$/test_interpolate/interpolate_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
+        <state relative-caret-position="648">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/least_square.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1548">
-          <caret line="90" column="96" lean-forward="false" selection-start-line="90" selection-start-column="96" selection-end-line="90" selection-end-column="96" />
+        <state relative-caret-position="201">
+          <caret line="187" column="7" lean-forward="false" selection-start-line="187" selection-start-column="7" selection-end-line="187" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/nose/failure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cover_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4698">
-          <caret line="276" column="21" lean-forward="false" selection-start-line="276" selection-start-column="11" selection-end-line="276" selection-end-column="21" />
+        <state relative-caret-position="522">
+          <caret line="170" column="12" lean-forward="true" selection-start-line="170" selection-start-column="12" selection-end-line="170" selection-end-column="12" />
           <folding />
         </state>
       </provider>
