@@ -3,7 +3,7 @@ all: test clean
 
 
 test:
-	python scipy_test.py
+	python Main.py
 
 clean:
 	rm -f *.pyc
